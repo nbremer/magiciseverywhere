@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+	    <meta name="viewport" content="user-scalable = yes">
+
+        <title>The Magic is Everywhere</title>
+        <meta name="author" content="Nadieh Bremer - Visual Cinnamon">
+        <meta name="title" content="The Magic is Everywhere">
+        <meta name="description" content="Visualizing patterns in the titles of nearly 1000 Fantasy books">
+        <meta name="keywords" content="data, visualization, visualisation, data visualization, data visualisation, information, information visualization, information visualisation, dataviz, datavis, infoviz, infovis, collaboration, data art">
+        <meta name="theme-color" content="#3c7e16">
+        
+        <!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="192x192" href="img/favicon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png" />
+        
+        <!-- Social media -->
+        <meta property="og:title" content="The Magic is Everywhere">
+        <meta property="og:site_name" content="The Magic is Everywhere">
+        <meta property="og:url" content="https://magiciseverywhere.visualcinnamon.com">
+        <meta property="og:description" content="Visualizing patterns in the titles of nearly 1000 Fantasy books">
+        <meta property="og:type" content="article">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:image" content="https://magiciseverywhere.visualcinnamon.com/img/magic_feature.png">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="800">
+        
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@NadiehBremer">
+        <meta name="twitter:creator" content="@NadiehBremer">
+        <meta name="twitter:title" content="The Magic is Everywhere">
+        <meta name="twitter:description" content="Visualizing patterns in the titles of nearly 1000 Fantasy books">
+        <meta name="twitter:image:src" content="https://magiciseverywhere.visualcinnamon.com/img/magic_feature.png">
+		
+		<!-- Styling -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Google fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Ek+Mukta:300,400,600|Tangerine:400,700|Eagle+Lake" rel="stylesheet">
+
+		<!-- JavaScript files -->
+		<script src="plugins/d3.min.js"></script>
+	
+	</head>
+	<body>
+
+		<div id="headerTitle"></div>
+
+		<div id="subtitle" class="explanation-text">
+			<div>
+				<p><span class="fw600 fs125 blue">Patterns in Fantasy book titles </span> Fantasy books are a wonderful genre within literature. With their brick sized formats and series spanning a dozen books or more, many amazing worlds, very different than ours, have been created by their writers.</p>
+				<p>I've been a fan of the genre since my teenage years and I've always had the idea that the titles of Fantasy books seem to follow certain patterns. To investigate further, I took the top 100 best-selling Fantasy authors from Amazon (± Nov '16) and the top 10 (max) books of each of these authors from Goodreads. This resulted in a dataset of about 850 books.</p>
+				<p>Using text-mining on the titles of the books I looked for general subjects/terms, such as <span class="fw400">fire</span>, <span class="fw400">royal</span>, <span class="fw400">time</span>, & more. Finally, these titles were clustered in a 2-dimensional plane, which placed books with similar themed titles together.</p>
+				<p>Although most authors appear to have their top-10 titles spread over the entire map below (hovering over a book for ±second will highlight all books by that author), some authors have a clear trend. Such as Charlaine Harris whose 10 books are all situated around <span class="fw400">death</span>. On the other hand, J.R.R. Tolkien has his books spread from top to bottom.</p>
+				<p><span class="fw400">Magic</span> is the most common word in all titles. Followed by <span class="fw400">fire</span>, <span class="fw400">dark</span>, <span class="fw400">red</span> & <span class="fw400">blood</span>. In general terms relating to unpleasant things are more common than those relating to positive aspects. Nevertheless, titles relating directly to magic can be found throughout the visual, indicating that the one thing that binds fantasy books together is, not surprisingly, <span class="tang fw700">Magic</span></p>
+				<p class="fs090 grey">The visual below shows the resulting patterns found. Each <span class="fs150 blue">●</span> represents a book. A <span class="fs125 blue">⌒</span> connects books by the same author. Areas of similar subjects in titles have been highlighted by colored oval areas and the corresponding <span class="eagle">term</span>. See a more extensive legend below the visual.</p>
+				<p class="fs090 grey desktop">Tip: use your mouse/trackpad or ctrl/cmd+ to zoom in on the visual so all the titles become readable.</p>
+				<p class="fs090 grey mobile">Tip: use your fingers to pinch/zoom into the visual so more titles become readable. Or see a <a href="img/magic-is-everywhere-mobile-large.jpg" target = "_new">very large image</a>. Also, the desktop version looks better & is interactive!</p>
+			</div>	
+		</div>
+
+		<div id="totalChartWrapper">
+			<!-- The blurred areas behind the terms -->
+			<div class="svgViz" id="areaChart" style="filter: blur(50px); opacity: 0.4">
+				<svg x="0px" y="0px" width="1750px" height="1750px" viewBox="-50 -50 1750 1750">
+					<g class="scale-wrapper" id="term-areas" style="isolation: isolate;">
+						<ellipse id="name" transform="matrix(0.9942 -0.1071 0.1071 0.9942 -97.3372 78.3239)" style="fill:#FFE500;" cx="680.27" cy="945.06" rx="224.47" ry="142.97"/>
+						<ellipse id="bad" transform="matrix(0.9334 -0.3589 0.3589 0.9334 -112.6085 428.9428)" style="fill:#960052;" cx="1099.01" cy="517.77" rx="136.9" ry="218.96"/>
+						<ellipse id="location" style="fill:#0AA200;" cx="763.59" cy="381.24" rx="177.06" ry="107.91"/>
+						<ellipse id="object" transform="matrix(0.1933 -0.9811 0.9811 0.1933 -11.6494 1008.7062)" style="fill:#00C5ED;" cx="607.6" cy="511.44" rx="98.11" ry="159.9"/>
+						<ellipse id="quality" style="fill:#FE3800;" cx="385.82" cy="818.07" rx="142.91" ry="92.44"/>
+						<ellipse id="animal" transform="matrix(0.1367 -0.9906 0.9906 0.1367 -43.0932 1762.6403)" style="fill:#A9E100;" cx="989.78" cy="906.05" rx="163.94" ry="128.92"/>
+						<ellipse id="fighting" transform="matrix(0.9884 -0.1521 0.1521 0.9884 -71.4269 63.2504)" style="fill:#AE0062;" cx="377.66" cy="498.43" rx="231.55" ry="104.29"/>
+						<ellipse id="time" transform="matrix(0.0587 -0.9983 0.9983 0.0587 -819.8204 2099.6177)" style="fill:#0AB197;" cx="703.49" cy="1484.55" rx="104.66" ry="257.58"/>
+						<ellipse id="place" style="fill:#FC7B02;" cx="306.31" cy="292" rx="212.87" ry="154.78"/>
+						<ellipse id="state" transform="matrix(0.811 -0.5851 0.5851 0.811 -407.7076 1013.8047)" style="fill:#00DECF;" cx="1365.2" cy="1137.9" rx="263.98" ry="111.14"/>
+						<ellipse id="royal" style="fill:#35BD00;" cx="525.83" cy="638.61" rx="140.01" ry="153.8"/>
+						<ellipse id="fire" style="fill:#FC5703;" cx="1169.34" cy="771.28" rx="119.52" ry="139.23"/>
+						<ellipse id="dark" transform="matrix(0.9334 -0.3589 0.3589 0.9334 -288.9092 484.3311)" style="fill:#2F357E;" cx="1160.04" cy="1020.31" rx="237.22" ry="135.65"/>
+						<ellipse id="profession" transform="matrix(0.1933 -0.9811 0.9811 0.1933 -497.8105 714.6195)" style="fill:#F2F500;" cx="185.68" cy="660.05" rx="195.13" ry="163.32"/>
+						<ellipse id="new" transform="matrix(0.6467 -0.7627 0.7627 0.6467 -706.0323 1087.9111)" style="fill:#860064;" cx="821.35" cy="1306.1" rx="120.79" ry="201.88"/>
+						<ellipse id="space" transform="matrix(0.2738 -0.9618 0.9618 0.2738 -381.7425 1929.5889)" style="fill:#D90101;" cx="1086.89" cy="1217.58" rx="98.1" ry="188.77"/>
+						<ellipse id="attraction" transform="matrix(0.9705 -0.2411 0.2411 0.9705 -282.61 170.4999)" style="fill:#2CADE2;" cx="555.37" cy="1240.01" rx="129.52" ry="162.12"/>
+						<ellipse id="religion" style="fill:#FEA500;" cx="857.62" cy="1123.09" rx="165.5" ry="94.49"/>
+						<ellipse id="water" transform="matrix(0.9767 -0.2144 0.2144 0.9767 -55.2802 292.7381)" style="fill:#0054E3;" cx="1321.87" cy="401.21" rx="173.45" ry="122.03"/>
+						<ellipse id="blood" transform="matrix(0.9061 -0.4231 0.4231 0.9061 -111.2378 644.6411)" style="fill:#FE1B00;" cx="1396.54" cy="572.9" rx="185.49" ry="131.95"/>
+						<ellipse id="death" transform="matrix(0.0773 -0.997 0.997 0.0773 576.2955 2235.5022)" style="fill:#FFCB0C;" cx="1495.91" cy="806.4" rx="193.79" ry="131.17"/>
+						<ellipse id="happening" transform="matrix(0.9923 -0.1242 0.1242 0.9923 -151.2402 44.7747)" style="fill:#CDE600;" cx="283.38" cy="1235.01" rx="154.9" ry="114.96"/>
+						<ellipse id="group" transform="matrix(0.9942 -0.1076 0.1076 0.9942 -148.6974 134.5631)" style="fill:#74E204;" cx="1172.74" cy="1445.36" rx="215.88" ry="132.18"/>
+						<ellipse id="nature" transform="matrix(0.49 -0.8717 0.8717 0.49 347.1296 880.3543)" style="fill:#00C7C6;" cx="925.92" cy="143.52" rx="163.83" ry="128.47"/>
+						<ellipse id="good" transform="matrix(0.1933 -0.9811 0.9811 0.1933 761.2274 1358.4604)" style="fill:#FFD901;" cx="1206.74" cy="216.3" rx="105.16" ry="163.99"/>
+						<ellipse id="number" transform="matrix(0.837 -0.5473 0.5473 0.837 21.3446 392.3442)" style="fill:#72217F;" cx="669.15" cy="160.35" rx="169.21" ry="119.24"/>
+						<ellipse id="jewel" transform="matrix(0.5349 -0.8449 0.8449 0.5349 -55.693 992.7135)" style="fill:#FFCB0C;" cx="873.82" cy="546.94" rx="67.77" ry="134.44"/>
+						<ellipse id="color" transform="matrix(0.1933 -0.9811 0.9811 0.1933 -781.9557 1093.7489)" style="fill:#0AB15D;" cx="274.17" cy="1022.41" rx="96.45" ry="164.9"/>
+						<ellipse id="government" transform="matrix(0.9698 -0.2439 0.2439 0.9698 -126.0602 208.0697)" style="fill:#FE3800;" cx="777.24" cy="613.12" rx="101.5" ry="49.65"/>
+						<ellipse id="ice" transform="matrix(0.9981 -0.0616 0.0616 0.9981 -22.2478 74.7881)" style="fill:#07B196;" cx="1202.69" cy="398.48" rx="65.22" ry="125"/>
+						<ellipse id="battle" transform="matrix(0.9223 -0.3865 0.3865 0.9223 -161.6993 203.9739)" style="fill:#FE1B00;" cx="426.4" cy="504.11" rx="60.87" ry="113.22"/>
+						<ellipse id="light" transform="matrix(0.9746 -0.224 0.224 0.9746 -129.9663 206.7492)" style="fill:#FFD901;" cx="846.12" cy="676.11" rx="68.68" ry="32.06"/>
+						<ellipse id="murderer" transform="matrix(0.5 -0.866 0.866 0.5 -623.1418 525.7084)" style="fill:#00DECF;" cx="143.71" cy="802.51" rx="99.05" ry="81.13"/>
+						<ellipse id="magic" transform="matrix(0.983 -0.1835 0.1835 0.983 -127.3774 166.2652)" style="fill:#00DECF;" cx="834.74" cy="771.43" rx="325.19" ry="109.99"/>
+					</g>
+				</svg>		
+			</div>
+			<!-- The lines between books of the same author -->
+			<div class="svgViz" id="lineChart"></div>
+			<!-- The term texts of the blurred areas -->
+			<div class="svgViz" id="termChart">
+				<svg x="0px" y="0px" width="1750px" height="1750px" viewBox="-50 -50 1750 1750">
+					<g class="scale-wrapper" id="terms" style="font-family: 'Eagle Lake', cursive; opacity: 0.6;">
+						<text transform="matrix(1 0 0 1 832.6064 754.2277)" style="fill:#06514A; font-size:49px; letter-spacing:6;">Magic</text>
+						<text transform="matrix(1 0 0 1 528.722 1005.4401)" style="fill:#933309; font-size:42px; letter-spacing:5;">Name</text>
+						<text transform="matrix(1 0 0 1 1078.7457 550.7402)" style="fill:#5E083B; font-size:43px; letter-spacing:5;">Bad</text>
+						<text transform="matrix(1 0 0 1 720.1608 359.3065)" style="fill:#13560D; font-size:27px; letter-spacing:3;">Location</text>
+						<text transform="matrix(1 0 0 1 536.3479 480.0154)" style="fill:#06464F; font-size:30px; letter-spacing:3;">Object</text>
+						<text transform="matrix(1 0 0 1 278.7568 814.884)" style="fill:#631306; font-size:26px; letter-spacing:3;">Quality</text>
+						<text transform="matrix(1 0 0 1 913.6064 845.2277)" style="fill:#46560E; font-size:33px; letter-spacing:4;">Animal</text>
+						<text transform="matrix(1 0 0 1 213.0464 499.6252)" style="fill:#540534; font-size:25px; letter-spacing:3;">Fighting</text>
+						<text transform="matrix(1 0 0 1 659.0463 1450.5056)" style="fill:#0B4237; font-size:37px; letter-spacing:4;">Time</text>
+						<text transform="matrix(1 0 0 1 1428.3822 1063.155)" style="fill:#094C45; font-size:31.6512px; letter-spacing:3;">State</text>
+						<text transform="matrix(1 0 0 1 503.3397 670.8665)" style="fill:#215B09; font-size:31.6512px; letter-spacing:3;">Royal</text>
+						<text transform="matrix(1 0 0 1 191.0496 332.5548)" style="fill:#BF0C0C; font-size:31.6512px; letter-spacing:3;">Place</text>
+						<text transform="matrix(1 0 0 1 1139.9003 826.9602)" style="fill:#4C1C07; font-size:30.8837px; letter-spacing:3;">Fire</text>
+						<text transform="matrix(1 0 0 1 1211.4667 1008.4896)" style="fill:#1D2349; font-size:39px; letter-spacing:4;">Dark</text>
+						<text transform="matrix(1 0 0 1 75.5052 632.0489)" style="fill:#935914; font-size:28.5814px; letter-spacing:3;">Profession</text>
+						<text transform="matrix(1 0 0 1 816.3007 1264.4327)" style="fill:#3A032E; font-size:27.814px; letter-spacing:3;">New</text>
+						<text transform="matrix(1 0 0 1 1051.6719 1267.6741)" style="fill:#510A0A; font-size:27.4302px; letter-spacing:3;">Space</text>
+						<text transform="matrix(1 0 0 1 463.4212 1303.3499)" style="fill:#134C5E; font-size:25.8953px; letter-spacing:3;">Attraction</text>
+						<text transform="matrix(1 0 0 1 733.6575 1131.9739)" style="fill:#5E3F0D; font-size:25.5116px; letter-spacing:3;">Religion</text>
+						<text transform="matrix(1 0 0 1 1312.031 401.0516)" style="fill:#0B3470; font-size:25.1279px; letter-spacing:3;">Water</text>
+						<text transform="matrix(1 0 0 1 1379.2925 622.3965)" style="fill:#560600; font-size:22.8256px; letter-spacing:2;">Blood</text>
+						<text transform="matrix(1 0 0 1 1421.8521 902.9771)" style="fill:#C4400C; font-size:32px; letter-spacing:4;">Death</text>
+						<text transform="matrix(1 0 0 1 225.8652 1264.8872)" style="fill:#5D630D; font-size:22.0581px; letter-spacing:2;">Happening</text>
+						<text transform="matrix(1 0 0 1 1199.962 1495.4785)" style="fill:#3E6B09; font-size:24px; letter-spacing:3;">Group</text>
+						<text transform="matrix(1 0 0 1 888.1442 178.1526)" style="fill:#0B5E5C; font-size:20.907px; letter-spacing:2;">Nature</text>
+						<text transform="matrix(1 0 0 1 1264.8153 227.6868)" style="fill:#AD3C15; font-size:20.5233px; letter-spacing:2;">Good</text>
+						<text transform="matrix(1 0 0 1 552.7498 225.4412)" style="fill:#491554; font-size:20.5233px; letter-spacing:2;">Number</text>
+						<text transform="matrix(1 0 0 1 796.4731 527.2563)" style="fill:#725805; font-size:20.1395px; letter-spacing:2;">Jewel</text>
+						<text transform="matrix(1 0 0 1 242.9117 981.3738)" style="fill:#033F1F; font-size:22px; letter-spacing:2;">Color</text>
+						<text transform="matrix(1 0 0 1 745.5182 603.6312)" style="fill:#510505; font-size:13px; letter-spacing:1;">Government</text>
+						<text transform="matrix(1 0 0 1 1160.3011 349.2776)" style="fill:#085445; font-size:17.8372px; letter-spacing:2;">Ice</text>
+						<text transform="matrix(1 0 0 1 384.0932 452.7009)" style="fill:#510B07; font-size:14.7674px; letter-spacing:1;">Battle</text>
+						<text transform="matrix(1 0 0 1 797.6903 701.9288)" style="fill:#962C0B; font-size:12px; letter-spacing:1;">Light</text>
+						<text transform="matrix(1 0 0 1 93.4404 838.6251)" style="fill:#086057; font-size:14px; letter-spacing:1;">Murderer</text>
+					</g>
+				</svg>
+			</div>
+			<!-- The book circle/elements -->
+			<div class="svgViz" id="bookChart"></div>
+		</div>
+
+		<div id="explanation" class="explanation-text">
+
+			<div class="half-width paddingR10">
+				<p>Since books by the same author are connected through curved lines I wanted to add a personal touch by highlighting my favorite authors & books. The colors below correspond to those in the visual above.</p>
+
+				<div id="authorImages">
+					<div class="author-row">
+						<img class="author-img" src="img/author_brandonSanderson_small.jpg">
+						<div class="author-text">
+							<h3 class="brandon">Brandon Sanderson</h3>
+							<p>My absolute favorite author. I started with Mistborn, intrigued by the concept of how the world continues when the "hero" wasn't able to save the day. But it was so much more than that; epic, funny, wonderful magic system. I truly like/love all of Brandon's books. His masterwork <span class="fw400">the Stormlight Archive</span> especially.</p>
+						</div>
+					</div>
+
+					<div class="author-row">
+						<img class="author-img" src="img/author_patrickRothfuss_small.jpg">
+						<div class="author-text">
+							<h3 class="patrick">Patrick Rothfuss</h3>
+							<p>Started reading <span class="fw400">the Name of the Wind</span> (part of the Kingkiller Chronicle) when I saw that Brandon recommended him on his site and my gosh what a great story! It's for the same reasons as Brandon; epic & complex magic systems, funny, fast paced & filled with small references to a bigger story.</p>
+						</div>
+					</div>
+
+					<div class="author-row">
+						<img class="author-img" src="img/author_jkRowling_small.jpg">
+						<div class="author-text">
+							<h3 class="rowling">J.K. Rowling</h3>
+							<p>Yes, I was about 11 when I discovered Harry Potter... So she's one of my favorites due to the nostalgic feelings I still get when thinking about this series.</p>
+						</div>
+					</div>
+				</div>
+
+				<p>But besides these 3 authors I have highlighted several favorite books from <span class="terry">Terry Goodkind's <span class="fw400">Sword of Truth</span> series</span> that started my love for the fantasy genre and recently I also enjoyed <span class="brent">Brent Week's <span class="fw400">Night Angel</span> trilogy</span>.</p>
+
+				<p>If you're also a fantasy fan you may have noticed that some big names are not part of my favorite group. This is most likely due to me not having read them. Even though I love fantasy, I don't actually read that often, there are so many other things that I spend my time on (such as creating these kinds of visuals).</p>
+				<p>So if your favorite fantasy author isn't part of my top 3, try to think about the titles of their books and search for their general themes in the map above. Hopefully you'll be able to pick up the "thread" that connects your favorite author's books.</p>
+			</div>
+
+			<div class="half-width paddingR10">
+				<h3 class="legend-top-title">Understanding the swooshes</h3>
+				<p class="fs090 grey">The <span class="desktop">animation</span><span class="mobile">image</span> below shows how to interpret the smaller circles and lines that surround the large book circles. Each letter of the title is marked as a small dot around the big main circle, where <span class="fw400">a</span> is on top. The other letters are located evenly around the circle. Letters within a word are connected by swooshing arcs. This results in unique patterns for each book title and highlights which letters are most common in a title.</p>
+				<div id="bookTitle">
+					<span class="span-hidden">_</span><span id="span-visible"></span><span id="span-become-visible"></span><span class="span-hidden">_</span><span id="span-invisible"></span>
+				</div>
+				<div id="bookLegend"></div>
+				<p class="fs090 grey" style="padding-top: 10px">I've made a distinction between favorite books, which are completely filled with a color. And books by one of my favorite 3 authors, but which are not truly my favorite books (or I haven't read them). The latter are only stroked with the author's color, but the circle itself is white.</p>
+				<div id="bookLegendCircles"></div>
+				<p class="fs090 grey">Finally, the books are scaled according to how many ratings it has on Goodreads. The author links between the books are also scaled, the higher in the Amazon author top 100 the thicker the line between books.</p>
+
+			</div>
+
+		</div>
+
+		<!-- Credits & Data -->
+		<div id="credits" class="explanation-text">
+			<p class="credit-bold" style="margin-bottom: 8px;">Design, data wrangling in R, & coding with d3.js by <a href="https://twitter.com/NadiehBremer" target="_new">Nadieh Bremer</a> <span class="credit-divider">|</span> <a href="http://www.visualcinnamon.com/" target="_new">Visual Cinnamon</a></p>
+			<p class="credit-note">Read about the design process in <a href="http://www.datasketch.es/november">this blog</a></p>
+		</div>
+
+		<script src="js/title.js"></script>	
+		<script src="js/bookLegend.js"></script>
+        <script src="js/main.js"></script>
+	</body>
+</html>

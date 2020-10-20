@@ -1,0 +1,846 @@
+"id","author","authorRank","title","avg_rating","num_ratings","favBook","favAuthor","x","y","pathOrder"
+1,"J. K. Rowling",1,"Harry Potter and the Sorcerer's Stone","4.43",4222665,1,1,6.505,-12.19,9
+2,"J. K. Rowling",1,"Harry Potter and the Prisoner of Azkaban","4.51",1786851,1,1,-40.335,-34.429,1
+3,"J. K. Rowling",1,"Harry Potter and the Deathly Hallows","4.6",1688191,0,1,20.258,18.1435,7
+4,"J. K. Rowling",1,"Harry Potter and the Goblet of Fire","4.51",1697059,1,1,-16.771,5.923,4
+5,"J. K. Rowling",1,"Harry Potter and the Order of the Phoenix","4.45",1706789,0,1,7.40849999999998,13.3685,6
+6,"J. K. Rowling",1,"Harry Potter and the Chamber of Secrets","4.35",1721691,1,1,-1.0745,7.34049999999999,5
+7,"J. K. Rowling",1,"Harry Potter and the Half-Blood Prince","4.52",1634957,1,1,-23.921,-8.6385,3
+8,"J. K. Rowling",1,"The Tales of Beedle the Bard","4.03",272347,0,1,-45.147,-8.252,2
+9,"J. K. Rowling",1,"Harry Potter and the Cursed Child - Parts One and Two","3.83",223266,0,1,21.1345,-13.156,8
+10,"Bella Forrest",2,"A Shade of Vampire","3.83",35700,0,0,20.7195,9.8385,5
+11,"Bella Forrest",2,"A Shade of Blood","4",21431,0,0,37.8035,-10.204,8
+12,"Bella Forrest",2,"A Castle of Sand","4.09",16336,0,0,-10.9295,-13.158,10
+13,"Bella Forrest",2,"A Shadow of Light","4.09",14133,0,0,24.646,12.8,6
+14,"Bella Forrest",2,"A Blaze of Sun","4.14",11910,0,0,18.9805,24.413,4
+15,"Bella Forrest",2,"A Gate of Night","4.19",8871,0,0,-8.866,47.365,1
+16,"Bella Forrest",2,"A Break of Day","4.17",7098,0,0,-6.8615,43.8135,2
+17,"Bella Forrest",2,"A Shade of Novak","4.35",4293,0,0,26.3055,11.291,7
+18,"Bella Forrest",2,"A Bond of Blood","4.34",3820,0,0,31.335,-9.033,9
+19,"Bella Forrest",2,"A Spell of Time","4.35",3312,0,0,-2.8805,43.3495,3
+20,"Jeff Wheeler",3,"The Wretched of Muirwood","3.94",10277,0,0,-27.1515,-37.1395,4
+21,"Jeff Wheeler",3,"The Blight of Muirwood","4.1",8154,0,0,-27.4705,-38.229,3
+22,"Jeff Wheeler",3,"The Scourge of Muirwood","4.07",7374,0,0,-36.03,-27.095,5
+23,"Jeff Wheeler",3,"The Queen's Poisoner","4.06",7119,0,0,-38.732,-2.19700000000001,7
+24,"Jeff Wheeler",3,"The Thief's Daughter","4.33",3144,0,0,-40.849,-9.93,6
+25,"Jeff Wheeler",3,"Fireblood","3.88",2857,0,0,-16.537,26.484,9
+26,"Jeff Wheeler",3,"The King's Traitor","4.47",2373,0,0,-17.435,-3.5885,8
+27,"Jeff Wheeler",3,"The Banished of Muirwood","4.01",2294,0,0,-24.764,-37.8315,1
+28,"Jeff Wheeler",3,"Dryad-Born","4.18",1836,0,0,-3.532,29.9965,10
+29,"Jeff Wheeler",3,"The Void of Muirwood","4.28",1756,0,0,-27.214,-39.29,2
+30,"Diana Gabaldon",4,"Outlander","4.19",508773,0,0,-5.287,-8.937,3
+31,"Diana Gabaldon",4,"Dragonfly in Amber","4.3",187772,0,0,10.4675,-1.325,4
+32,"Diana Gabaldon",4,"Voyager","4.37",161447,0,0,-9.2095,-8.1415,2
+33,"Diana Gabaldon",4,"Drums of Autumn","4.33",129838,0,0,-14.3405,46.682,10
+34,"Diana Gabaldon",4,"The Fiery Cross","4.26",108123,0,0,3.9235,15.954,9
+35,"Diana Gabaldon",4,"A Breath of Snow and Ashes","4.42",93020,0,0,29.0385,-26.947,5
+36,"Diana Gabaldon",4,"An Echo in the Bone","4.41",76702,0,0,38.8515,-16.245,6
+37,"Diana Gabaldon",4,"Written in My Own Heart's Blood","4.48",53718,0,0,40.161,-14.712,7
+38,"Diana Gabaldon",4,"Lord John and the Private Matter","3.64",29982,0,0,38.108,23.463,8
+39,"Diana Gabaldon",4,"The Scottish Prisoner","4.18",19365,0,0,-28.399,-5.6655,1
+40,"George R. R. Martin",5,"A Game of Thrones","4.44",1288488,0,0,-15.3565,-12.501,6
+41,"George R. R. Martin",5,"A Clash of Kings","4.4",559686,0,0,-21.281,-14.761,7
+42,"George R. R. Martin",5,"A Storm of Swords","4.54",485015,0,0,8.68549999999999,-47.9145,3
+43,"George R. R. Martin",5,"A Feast for Crows","4.08",440967,0,0,-31.0285,30.4055,9
+44,"George R. R. Martin",5,"A Dance with Dragons","4.29",385551,0,0,7.706,7.199,5
+45,"George R. R. Martin",5,"A Storm of Swords: Blood and Gold","4.56",60084,0,0,5.6395,-47.394,2
+46,"George R. R. Martin",5,"A Storm of Swords: Steel and Snow","4.49",48346,0,0,5.8,-45.942,1
+47,"George R. R. Martin",5,"A Song of Ice and Fire","4.63",37127,0,0,27.6225,-23.3605,4
+48,"George R. R. Martin",5,"A Game of Thrones / A Clash of Kings","4.53",21738,0,0,-19.911,-12.1895,8
+49,"J. R. R. Tolkien",6,"The Hobbit","4.23",2030162,0,0,-5.679,-3.183,5
+50,"J. R. R. Tolkien",6,"The Fellowship of the Ring","4.32",1659391,0,0,18.5685,41.533,1
+51,"J. R. R. Tolkien",6,"The Two Towers","4.41",489619,0,0,-10.456,-40.6845,9
+52,"J. R. R. Tolkien",6,"The Return of the King","4.5",471683,0,0,-7.008,26.387,3
+53,"J. R. R. Tolkien",6,"The Lord of the Rings","4.46",404464,0,0,-13.6525,-8.4345,6
+54,"J. R. R. Tolkien",6,"The Silmarillion","3.85",147625,0,0,-26.045,-29.78,8
+55,"J. R. R. Tolkien",6,"The Children of Hurin","3.93",43257,0,0,-27.084,-28.267,7
+56,"J. R. R. Tolkien",6,"Unfinished Tales of Numenor and Middle-Earth","3.92",21578,0,0,13.479,28.776,2
+57,"J. R. R. Tolkien",6,"The Book of Lost Tales, Part One","3.8",10153,0,0,13.577,-12.796,4
+58,"Brandon Sanderson",7,"The Final Empire","4.42",206045,1,1,-2.8085,-11.524,3
+59,"Brandon Sanderson",7,"The Way of Kings","4.63",139383,1,1,-19.855,-6.141,6
+60,"Brandon Sanderson",7,"The Well of Ascension","4.34",146763,1,1,1.97550000000001,18.459,9
+61,"Brandon Sanderson",7,"The Hero of Ages","4.44",137847,1,1,-16.288,41.742,10
+62,"Brandon Sanderson",7,"Words of Radiance","4.76",89318,1,1,19.406,-34.9725,1
+63,"Brandon Sanderson",7,"Elantris","4.16",89960,0,1,-29.287,-30.039,5
+64,"Brandon Sanderson",7,"Steelheart","4.15",88662,0,1,-6.6005,7.066,7
+65,"Brandon Sanderson",7,"The Alloy of Law","4.2",72355,1,1,0.934000000000005,-14.135,2
+66,"Brandon Sanderson",7,"Warbreaker","4.2",56864,0,1,-7.0225,-8.989,4
+67,"Brandon Sanderson",7,"Firefight","4.3",40818,0,1,-4.876,9.1535,8
+68,"Shannon Mayer",8,"Priceless","3.92",9174,0,0,-27.9955,0.496999999999993,2
+69,"Shannon Mayer",8,"Immune","4.06",6863,0,0,-24.334,-0.0429999999999993,4
+70,"Shannon Mayer",8,"Raising Innocence","4.12",6272,0,0,-26.157,0.317,3
+71,"Shannon Mayer",8,"Shadowed Threads","4.17",5608,0,0,22.6685,10.29,9
+72,"Shannon Mayer",8,"Blind Salvage","4.18",4748,0,0,8.4635,-25.9715,6
+73,"Shannon Mayer",8,"Tracker","4.27",3752,0,0,-39.125,-7.354,1
+74,"Shannon Mayer",8,"Veiled Threat","4.27",3073,0,0,38.788,13.82,8
+75,"Shannon Mayer",8,"Breakwater","4.2",2801,0,0,-11.6875,-17.454,5
+76,"Shannon Mayer",8,"Wounded","4.34",2604,0,0,36.815,-14.4245,7
+77,"Ella Summers",9,"Mercenary Magic","3.99",2077,0,0,-38.7695,-11.108,8
+78,"Ella Summers",9,"Magic Games","4.12",1484,0,0,4.86450000000001,-1.3405,3
+79,"Ella Summers",9,"Magic Edge","3.98",1279,0,0,-1.7985,-26.2195,2
+80,"Ella Summers",9,"Magic Nights","4.07",1066,0,0,-5.964,43.0205,10
+81,"Ella Summers",9,"Blood Magic","4.19",656,0,0,33.8095,-14.758,1
+82,"Ella Summers",9,"Magic Kingdom","4.2",446,0,0,-13.151,-6.1185,7
+83,"Ella Summers",9,"Fairy Magic","4.01",407,0,0,-1.093,-0.636499999999998,5
+84,"Ella Summers",9,"Rival Magic","4.23",339,0,0,-2.388,-0.906500000000001,6
+85,"Ella Summers",9,"Vampire's Kiss","4.43",290,0,0,-14.911,24.54,9
+86,"Ella Summers",9,"Enchanted","3.37",190,0,0,1.7725,-0.713000000000001,4
+87,"Charlene Hartnady",10,"Mate's Lore","3.95",1453,0,0,-17.1675,22.627,5
+88,"Charlene Hartnady",10,"A Mate for York","3.91",1453,0,0,-13.769,21.776,6
+89,"Charlene Hartnady",10,"New Moon","4.14",1186,0,0,4.219,31.593,1
+90,"Charlene Hartnady",10,"Torn Desires","4.05",1209,0,0,-9.719,27.9295,2
+91,"Charlene Hartnady",10,"Love & War","4.08",1160,0,0,-19.276,27.694,3
+92,"Charlene Hartnady",10,"Wild Heat","4.1",1146,0,0,7.981,-36.3975,10
+93,"Charlene Hartnady",10,"Red Lust","4.12",1114,0,0,-20.382,25.001,4
+94,"Charlene Hartnady",10,"A Mate for Gideon","4.1",989,0,0,-15.146,20.033,8
+95,"Charlene Hartnady",10,"A Mate for Lazarus","4.29",894,0,0,-14.4595,20.7205,7
+96,"Charlene Hartnady",10,"Accidental Theft","4.28",821,0,0,14.3295,-18.012,9
+97,"Jim Butcher",11,"Storm Front","4.02",200313,0,0,5.74249999999999,-43.5745,10
+98,"Jim Butcher",11,"Fool Moon","4.04",112224,0,0,16.94,25.66,3
+99,"Jim Butcher",11,"Grave Peril","4.18",97929,0,0,44.022,-7.2855,7
+100,"Jim Butcher",11,"Summer Knight","4.3",90867,0,0,-15.5035,44.9185,2
+101,"Jim Butcher",11,"Death Masks","4.31",83937,0,0,39.4675,0.393500000000003,5
+102,"Jim Butcher",11,"Blood Rites","4.33",79858,0,0,44.424,-19.9505,8
+103,"Jim Butcher",11,"Dead Beat","4.43",77690,0,0,47.3605,-2.359,6
+104,"Jim Butcher",11,"Proven Guilty","4.41",74581,0,0,38.979,19.616,4
+105,"Jim Butcher",11,"White Night","4.41",73652,0,0,-35.8535,13.037,1
+106,"Jim Butcher",11,"Small Favor","4.43",70539,0,0,20.952,-38.257,9
+107,"Jaymin Eve",12,"Dragon Marked","4.16",5313,0,0,29.4635,20.4545,5
+108,"Jaymin Eve",12,"Ash","4.09",4358,0,0,20.152,-3,6
+109,"Jaymin Eve",12,"Dragon Mystics","4.34",3621,0,0,5.901,7.194,4
+110,"Jaymin Eve",12,"First World","4.03",3364,0,0,-8.604,-35.6105,9
+111,"Jaymin Eve",12,"Dragon Mated","4.27",2162,0,0,-20.751,20.425,1
+112,"Jaymin Eve",12,"Spurn","4.34",1938,0,0,13.162,-18.504,7
+113,"Jaymin Eve",12,"Anarchy","4.23",1757,0,0,-1.181,-11.359,8
+114,"Jaymin Eve",12,"Crais","4.36",1672,0,0,-7.233,12.729,3
+115,"Jaymin Eve",12,"Regali","4.46",1525,0,0,-27.194,-32.638,10
+116,"Jaymin Eve",12,"Nephilius","4.49",1445,0,0,-9.7105,12.3095,2
+117,"R. A. Salvatore",13,"Homeland","4.26",48034,0,0,-4.6755,-24.8575,3
+118,"R. A. Salvatore",13,"Exile","4.24",38323,0,0,15.385,-19.649,7
+119,"R. A. Salvatore",13,"Sojourn","4.23",36483,0,0,-5.929,-24.5225,2
+120,"R. A. Salvatore",13,"The Crystal Shard","4.13",33304,0,0,0.61399999999999,-19.127,5
+121,"R. A. Salvatore",13,"The Halfling's Gem","4.15",27856,0,0,-0.945999999999998,-17.452,4
+122,"R. A. Salvatore",13,"Streams of Silver","4.13",26883,0,0,4.1585,-19.041,6
+123,"R. A. Salvatore",13,"The Legacy","4.18",21378,0,0,-25.4345,-1.697,1
+124,"R. A. Salvatore",13,"Starless Night","4.12",18997,0,0,3.691,43.4095,9
+125,"R. A. Salvatore",13,"Siege of Darkness","4.15",18177,0,0,26.62,13.3485,8
+126,"Tom Reynolds",14,"Meta","3.8",2781,0,0,-6.5265,12.2915,3
+127,"Tom Reynolds",14,"The Second Wave","4.05",1241,0,0,-9.043,42.6125,1
+128,"Tom Reynolds",14,"Rise of The Circle","4.19",635,0,0,4.248,33.546,2
+129,"Brent Weeks",15,"The Way of Shadows","4.15",103207,1,0,29.257,7.426,5
+130,"Brent Weeks",15,"Shadow's Edge","4.27",64400,1,0,31.4955,8.0065,6
+131,"Brent Weeks",15,"Beyond the Shadows","4.29",63096,1,0,29.297,9.18249999999999,4
+132,"Brent Weeks",15,"The Black Prism","4.23",56490,0,0,-33.0945,16.413,2
+133,"Brent Weeks",15,"The Blinding Knife","4.45",39898,0,0,-23.5015,-13.303,1
+134,"Brent Weeks",15,"The Broken Eye","4.46",23962,0,0,21.208,-19.1835,9
+135,"Brent Weeks",15,"The Night Angel Trilogy","4.42",17872,0,0,2.01699999999999,23.688,3
+136,"Brent Weeks",15,"Perfect Shadow","4.17",9756,0,0,30.504,-34.791,10
+137,"Brent Weeks",15,"The Blood Mirror","4.31",1672,0,0,30.454,-14.1015,8
+138,"Brent Weeks",15,"The Way of Shadows, Part 2 of 2","4.53",640,0,0,30.6765,5.5445,7
+139,"Neil Gaiman",16,"American Gods","4.1",439540,0,0,5.06999999999999,20.335,6
+140,"Neil Gaiman",16,"Coraline","4.01",310876,0,0,-9.0275,9.6905,5
+141,"Neil Gaiman",16,"The Graveyard Book","4.11",294538,0,0,44.3865,-0.518500000000003,10
+142,"Neil Gaiman",16,"The Ocean at the End of the Lane","3.99",292472,0,0,-1.577,-30.431,1
+143,"Neil Gaiman",16,"Neverwhere","4.17",268476,0,0,-8.731,-23.797,3
+144,"Neil Gaiman",16,"Stardust","4.06",251799,0,0,15.514,24.697,8
+145,"Neil Gaiman",16,"Anansi Boys","3.99",140107,0,0,17.8135,45.0285,7
+146,"Neil Gaiman",16,"The Sandman, Vol. 1: Preludes and Nocturnes","4.33",118457,0,0,23.0915,8.2135,9
+147,"Neil Gaiman",16,"The Sandman, Vol. 3: Dream Country","4.29",66895,0,0,-1.6735,-22.131,2
+148,"Neil Gaiman",16,"The Sandman, Vol. 2: The Doll's House","4.44",57994,0,0,-7.4255,-19.456,4
+149,"Jasmine Walt",17,"Burned by Magic","3.9",2548,0,0,16.3245,-2.5645,5
+150,"Jasmine Walt",17,"Bound by Magic","4.15",1457,0,0,32.481,17.924,3
+151,"Jasmine Walt",17,"Hunted by Magic","4.2",1159,0,0,-24.0425,-19.1355,9
+152,"Jasmine Walt",17,"Shadow Born","3.98",1054,0,0,9.254,34.1375,1
+153,"Jasmine Walt",17,"Marked by Magic","4.26",893,0,0,32.0455,18.549,2
+154,"Jasmine Walt",17,"Betrayed by Magic","4.3",488,0,0,13.6725,-28.871,7
+155,"Jasmine Walt",17,"Shadow Marked","4.19",208,0,0,28.089,15.368,4
+156,"Jasmine Walt",17,"The Baine Chronicles Series, Books 1-3: Burned by Magic, Bound by Magic, Hunted by Magic","4.33",15,0,0,12.6895,-5.3765,6
+157,"Jasmine Walt",17,"Deceived by Magic","4",7,0,0,12.5875,-28.3325,8
+158,"Robert Jordan",18,"The Eye of the World","4.17",245793,0,0,13.6555,21.1795,3
+159,"Robert Jordan",18,"The Great Hunt","4.2",161538,0,0,-25.122,-20.22,8
+160,"Robert Jordan",18,"The Dragon Reborn","4.22",154958,0,0,9.42849999999999,9.7985,5
+161,"Robert Jordan",18,"The Shadow Rising","4.2",121972,0,0,10.754,34.074,2
+162,"Robert Jordan",18,"The Gathering Storm","4.33",93065,0,0,1.855,-37.458,10
+163,"Robert Jordan",18,"Towers of Midnight","4.41",90665,0,0,-12.996,38.723,1
+164,"Robert Jordan",18,"The Fires of Heaven","4.12",96186,0,0,4.7975,17.6425,4
+165,"Robert Jordan",18,"Lord of Chaos","4.09",90644,0,0,-17.622,-5.4295,6
+166,"Robert Jordan",18,"A Crown of Swords","3.98",84560,0,0,-17.613,-16.531,7
+167,"Robert Jordan",18,"Knife of Dreams","4.11",72405,0,0,-17.002,-20.2875,9
+168,"Stephen King",19,"The Shining","4.15",759308,0,0,2.225,-8.202,2
+169,"Stephen King",19,"Carrie","3.91",341579,0,0,-6.4855,10.262,3
+170,"Stephen King",19,"Misery","4.09",319890,0,0,13.01,-22.4,1
+171,"Stephen King",19,"The Gunslinger","4",313944,0,0,-33.2665,-17.0345,7
+172,"Stephen King",19,"Pet Sematary","3.89",272011,0,0,-11.7885,9.2105,4
+173,"Stephen King",19,"'Salem's Lot","3.98",233531,0,0,-27.791,24.318,5
+174,"Stephen King",19,"The Green Mile","4.41",176739,0,0,-28.645,14.312,6
+175,"Philip K. Dick",20,"Do Androids Dream of Electric Sheep?","4.07",220733,0,0,17.547,6.664,6
+176,"Philip K. Dick",20,"The Man in the High Castle","3.7",85446,0,0,-5.8255,-29.673,1
+177,"Philip K. Dick",20,"A Scanner Darkly","4.04",57461,0,0,23.854,11.9675,7
+178,"Philip K. Dick",20,"Ubik","4.1",51803,0,0,-8.1155,12.274,4
+179,"Philip K. Dick",20,"Flow My Tears, the Policeman Said","3.94",22885,0,0,-2.8715,-13.141,2
+180,"Philip K. Dick",20,"The Three Stigmata of Palmer Eldritch","4.01",21529,0,0,-4.1295,17.3885,5
+181,"Philip K. Dick",20,"VALIS","3.94",17510,0,0,-7.7855,11.1995,3
+182,"Philip K. Dick",20,"The Minority Report","3.82",12177,0,0,22.1885,40.7785,8
+183,"Philip K. Dick",20,"Martian Time-Slip","3.76",7444,0,0,5.19,42.7785,9
+184,"D.K. Holmberg",21,"Chased by Fire","3.96",1157,0,0,22.4425,-2.402,6
+185,"D.K. Holmberg",21,"Bound by Fire","4.11",880,0,0,44.397,17.994,2
+186,"D.K. Holmberg",21,"Changed by Fire","4.11",811,0,0,44.449,16.9855,1
+187,"D.K. Holmberg",21,"The Dark Ability","3.88",815,0,0,21.961,14.605,4
+188,"D.K. Holmberg",21,"Fortress of Fire","4.16",695,0,0,25.076,-8.104,8
+189,"D.K. Holmberg",21,"Forged in Fire","4.18",554,0,0,43.243,17.6115,3
+190,"D.K. Holmberg",21,"The Heartstone Blade","3.97",558,0,0,-19.5805,-17.66,9
+191,"D.K. Holmberg",21,"Serpent of Fire","4.25",464,0,0,18.408,0.172,5
+192,"D.K. Holmberg",21,"The Tower of Venass","4.04",425,0,0,-34.8425,-25.593,10
+193,"D.K. Holmberg",21,"Servant of Fire","4.27",378,0,0,23.202,-4.8865,7
+194,"Charlie N. Holmberg",22,"The Paper Magician","3.62",33342,0,0,-7.615,-17.156,4
+195,"Charlie N. Holmberg",22,"The Glass Magician","3.86",17988,0,0,-7.6175,-16.0845,3
+196,"Charlie N. Holmberg",22,"The Master Magician","3.81",13177,0,0,-1.827,-2.884,2
+197,"Charlie N. Holmberg",22,"Followed by Frost","4.21",2234,0,0,27.503,-24.3355,7
+198,"Charlie N. Holmberg",22,"Magic Bitter, Magic Sweet","3.67",2055,0,0,21.409,-34.191,6
+199,"Charlie N. Holmberg",22,"My Bloody Valentine","4.14",79,0,0,-38.927,25.854,1
+200,"Charlie N. Holmberg",22,"Deep Magic - June 2016","4.2",40,0,0,-1.5485,-27.407,5
+201,"May Sage",23,"Cinderella","3.54",819,0,0,-10.58,7.728,5
+202,"May Sage",23,"Beauty and the Beast","3.86",253,0,0,-24.081,7.81,3
+203,"May Sage",23,"Not quite the Fairy Tale: Bundle One.","4.04",223,0,0,-13.647,-39.8655,7
+204,"May Sage",23,"A little Siren","3.89",227,0,0,-25.144,-2.934,6
+205,"May Sage",23,"Little Red","4.15",189,0,0,-32.863,12.549,2
+206,"May Sage",23,"The Snow Queen","3.76",188,0,0,23.0205,-24.4705,9
+207,"May Sage",23,"Worthless","3.87",109,0,0,16.5035,-19.464,8
+208,"May Sage",23,"White as Snow","3.85",106,0,0,-37.8555,12.2615,1
+209,"May Sage",23,"Rumplestiltskin","3.82",84,0,0,-11.014,11.5235,4
+210,"Nalini Singh",24,"Angels' Blood","4.12",53276,0,0,43.9875,-18.445,1
+211,"Nalini Singh",24,"Slave to Sensation","4.13",43877,0,0,-14.394,22.871,8
+212,"Nalini Singh",24,"Archangel's Kiss","4.24",36427,0,0,-11.762,24.3935,6
+213,"Nalini Singh",24,"Archangel's Consort","4.24",26523,0,0,-0.2455,20.709,5
+214,"Nalini Singh",24,"Caressed by Ice","4.33",24705,0,0,27.655,-19.6065,3
+215,"Nalini Singh",24,"Visions of Heat","4.13",23379,0,0,-13.156,25.4655,7
+216,"Nalini Singh",24,"Kiss of Snow","4.47",20428,0,0,27.4675,-20.8625,2
+217,"Nalini Singh",24,"Archangel's Blade","4.26",21209,0,0,-23.4875,15.127,10
+218,"Nalini Singh",24,"Branded by Fire","4.31",20414,0,0,27.9405,-2.8585,4
+219,"Nalini Singh",24,"Hostage to Pleasure","4.22",19972,0,0,-16.3305,21.5585,9
+220,"Linsey Hall",25,"Ancient Magic","3.92",1819,0,0,-3.7045,42.09,4
+221,"Linsey Hall",25,"Mirror Mage","4.16",1103,0,0,-6.5695,-14.455,2
+222,"Linsey Hall",25,"Stolen Magic","4.25",713,0,0,15.77,-27.9545,1
+223,"Linsey Hall",25,"Eternal Magic","4.36",502,0,0,-4.8975,43.5055,6
+224,"Linsey Hall",25,"Braving Fate","3.74",521,0,0,-34.4515,25.42,8
+225,"Linsey Hall",25,"Infinite Magic","4.44",356,0,0,-4.138,42.8365,5
+226,"Linsey Hall",25,"Soulceress","4.13",230,0,0,2.41,-0.244,3
+227,"Linsey Hall",25,"Fate Undone","4.35",198,0,0,-35.0475,26.5295,7
+228,"Rebecca Hamilton",26,"The Forever Girl","3.63",1767,0,0,-17.8535,43.241,2
+229,"Rebecca Hamilton",26,"Shadow Born","3.98",1054,0,0,9.56750000000001,35.0135,3
+230,"Rebecca Hamilton",26,"Pandora","3.53",405,0,0,-8.9445,11.875,6
+231,"Rebecca Hamilton",26,"Her Sweetest Downfall","3.77",351,0,0,22.2195,-35.3415,8
+232,"Rebecca Hamilton",26,"Come, the Dark: Cordovae's Journey","4.18",213,0,0,-36.0665,29.729,1
+233,"Rebecca Hamilton",26,"Taken by the Beast","3.82",207,0,0,15.097,5.023,7
+234,"Rebecca Hamilton",26,"Alphas Unwrapped: 21 New Paranormal Holiday Hotties Sure to Make Santa's Naughty List","4.31",178,0,0,-2.806,31.0595,5
+235,"Rebecca Hamilton",26,"Origin","4.23",111,0,0,2.21450000000001,33.2315,4
+236,"Rebecca Hamilton",26,"Happily Ever Alpha","4.28",103,0,0,25.153,-36.581,9
+237,"Duncan M Hamilton",27,"The Tattered Banner","3.61",1295,0,0,34.5595,14.2805,8
+238,"Duncan M Hamilton",27,"The Huntsman's Amulet","3.57",787,0,0,-34.001,-15.324,2
+239,"Duncan M Hamilton",27,"The Telastrian Song","3.67",410,0,0,-29.991,-31.638,4
+240,"Duncan M Hamilton",27,"The Wolf of the North: Wolf of the North Book 1","4.2",187,0,0,10.2745,1.983,7
+241,"Duncan M Hamilton",27,"The First Blade of Ostia","3.8",66,0,0,-23.428,-24.5285,5
+242,"Duncan M Hamilton",27,"The Marcher Lord","4.19",16,0,0,-40.6695,-2.75950000000001,1
+243,"Duncan M Hamilton",27,"The Society of the Sword Trilogy","4.23",13,0,0,-18.798,-23.8965,6
+244,"Duncan M Hamilton",27,"The Swordsman of Tanosa: A Short Tale of the Middle Sea","3.27",11,0,0,-34.604,-20.75,3
+245,"Harmony Raines",28,"Rescued by the Bear","3.69",633,0,0,28.3595,21.242,3
+246,"Harmony Raines",28,"Deceit","3.58",516,0,0,16.2075,-20.3555,7
+247,"Harmony Raines",28,"Santa Paws","3.94",454,0,0,-5.101,-6.6885,8
+248,"Harmony Raines",28,"Finding Her Bear","3.97",431,0,0,13.7865,4.10900000000001,5
+249,"Harmony Raines",28,"Love","3.77",432,0,0,-18.415,26.656,10
+250,"Harmony Raines",28,"Stranded","3.88",399,0,0,37.296,20.89,1
+251,"Harmony Raines",28,"Tamed by the Bear","4.06",334,0,0,29.8595,21.8045,2
+252,"Harmony Raines",28,"Her Scars to Bear","3.86",342,0,0,19.0005,-9.984,6
+253,"Harmony Raines",28,"Power","3.8",341,0,0,-25.905,1.9415,9
+254,"Harmony Raines",28,"Stranded With Her Bear","3.93",321,0,0,27.6095,21.992,4
+255,"Kel Kade",29,"Free the Darkness","4.35",1957,0,0,31.1895,-33.782,1
+256,"Kel Kade",29,"Reign of Madness","4.51",1887,0,0,18.894,-19.41,2
+257,"Patrick Rothfuss",30,"The Name of the Wind","4.55",379608,1,1,12.533,-43.554,1
+258,"Patrick Rothfuss",30,"The Wise Man's Fear","4.57",245508,1,1,-29.844,-3.259,6
+259,"Patrick Rothfuss",30,"The Slow Regard of Silent Things","3.91",56958,1,1,-30.5035,2.33749999999999,7
+260,"Patrick Rothfuss",30,"Rogues","3.87",10532,0,1,16.159,40.843,8
+261,"Patrick Rothfuss",30,"The Thing Beneath the Bed","4.24",4219,0,1,-10.297,-17.9,4
+262,"Patrick Rothfuss",30,"Unfettered","3.8",3356,0,1,13.859,-20.758,2
+263,"Patrick Rothfuss",30,"Doors of Stone","4.33",1898,0,1,-0.698500000000003,-18.629,3
+264,"Patrick Rothfuss",30,"Epic: Legends of Fantasy","3.71",1660,0,1,-19.3475,-2.7265,5
+265,"Faith Hunter",31,"Skinwalker","3.88",23250,0,0,-9.6065,-9.5525,2
+266,"Faith Hunter",31,"Blood Cross","4.13",16475,0,0,42.3615,-20.6995,7
+267,"Faith Hunter",31,"Mercy Blade","4.21",14998,0,0,25.176,-34.379,6
+268,"Faith Hunter",31,"Raven Cursed","4.21",11673,0,0,17.44,-10.4235,4
+269,"Faith Hunter",31,"Death's Rival","4.29",10089,0,0,39.687,-1.39299999999999,9
+270,"Faith Hunter",31,"Blood Trade","4.27",8211,0,0,35.57,-15.4235,8
+271,"Faith Hunter",31,"Black Arts","4.34",6917,0,0,-31.171,16.7395,1
+272,"Faith Hunter",31,"Broken Soul","4.34",5780,0,0,19.834,-18.621,5
+273,"Faith Hunter",31,"Dark Heir","4.3",4698,0,0,16.643,13.818,10
+274,"Faith Hunter",31,"Bloodring","3.7",3834,0,0,-9.3925,-14.355,3
+275,"Terry Pratchett",32,"Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch","4.25",293770,0,0,23.1585,-38.6705,9
+276,"Terry Pratchett",32,"The Color of Magic","3.96",201166,0,0,-31.749,14.9205,2
+277,"Terry Pratchett",32,"Mort","4.2",127317,0,0,-9.1695,7.8565,6
+278,"Terry Pratchett",32,"Guards! Guards!","4.3",107375,0,0,-37.2135,-17.446,1
+279,"Terry Pratchett",32,"Equal Rites","3.98",93050,0,0,1.64500000000001,20.317,5
+280,"Terry Pratchett",32,"Night Watch","4.46",74557,0,0,-11.164,47.116,3
+281,"Terry Pratchett",32,"Going Postal","4.35",76100,0,0,4.39200000000001,-6.0325,7
+282,"Terry Pratchett",32,"Small Gods","4.26",75502,0,0,3.951,22.584,4
+283,"Terry Pratchett",32,"The Light Fantastic","3.93",80692,0,0,24.5925,-35.5615,10
+284,"Terry Pratchett",32,"The Wee Free Men","4.25",65717,0,0,19.7275,-36.806,8
+285,"Blake Crouch",33,"Pines","3.87",53072,0,0,9.08500000000001,-43.7905,4
+286,"Blake Crouch",33,"Wayward","4.12",28222,0,0,-30.914,-29.833,1
+287,"Blake Crouch",33,"The Last Town","4.09",25400,0,0,-5.2755,-26.7235,3
+288,"Blake Crouch",33,"Dark Matter","4.13",21515,0,0,22.346,13.38,9
+289,"Blake Crouch",33,"Abandon","3.72",7971,0,0,12.631,-19.145,6
+290,"Blake Crouch",33,"Run","3.88",7005,0,0,3.4545,-5.4075,7
+291,"Blake Crouch",33,"Snowbound","3.71",3929,0,0,28.1575,-25.454,5
+292,"Blake Crouch",33,"Desert Places","3.88",3594,0,0,-7.204,-29.441,2
+293,"Blake Crouch",33,"Locked Doors","4.06",2321,0,0,34.366,13.468,10
+294,"Blake Crouch",33,"Draculas","3.86",2324,0,0,-5.697,0.495500000000007,8
+295,"Karpov Kinrade",34,"Vampire Girl","4.08",3988,0,0,-7.9985,-0.328499999999998,5
+296,"Karpov Kinrade",34,"Court of Nightfall","4.01",2415,0,0,-10.463,43.3735,3
+297,"Karpov Kinrade",34,"Midnight Star","4.37",2021,0,0,3.5035,42.093,1
+298,"Karpov Kinrade",34,"Forbidden Mind","3.73",1855,0,0,20.5205,-20.1835,8
+299,"Karpov Kinrade",34,"House of Ravens","4.32",1560,0,0,8.97749999999999,3.9875,6
+300,"Karpov Kinrade",34,"Seduced by Power: Rose's Trilogy","4.08",830,0,0,9.0365,-36.9275,10
+301,"Karpov Kinrade",34,"Song of Kai","4.32",559,0,0,-12.2385,13.7535,4
+302,"Karpov Kinrade",34,"Night of Nyx","4.06",514,0,0,-7.961,45.038,2
+303,"Karpov Kinrade",34,"Forbidden Fire","4.12",476,0,0,20.775,-6.632,7
+304,"Karpov Kinrade",34,"Forbidden Life","4.16",352,0,0,13.0645,-17.376,9
+305,"Ilona Andrews",35,"Magic Bites","4.06",68132,0,0,15.4365,-26.5355,6
+306,"Ilona Andrews",35,"Magic Strikes","4.44",50432,0,0,-24.1655,-18.0095,10
+307,"Ilona Andrews",35,"Magic Bleeds","4.46",49579,0,0,34.1875,-13.4435,5
+308,"Ilona Andrews",35,"Magic Burns","4.33",49925,0,0,16.012,-3.627,4
+309,"Ilona Andrews",35,"Magic Slays","4.44",43896,0,0,12.1865,-27.227,7
+310,"Ilona Andrews",35,"Magic Rises","4.49",29677,0,0,0.558999999999997,33.506,1
+311,"Ilona Andrews",35,"Magic Breaks","4.53",23619,0,0,3.37349999999999,-1.999,3
+312,"Ilona Andrews",35,"On the Edge","4.02",25729,0,0,-7.1075,-25.105,9
+313,"Ilona Andrews",35,"Gunmetal Magic","4.27",22206,0,0,3.294,-17.205,8
+314,"Ilona Andrews",35,"Magic Shifts","4.48",17038,0,0,2.994,-0.923000000000002,2
+315,"Jamie Campbell",36,"Cinderella Is Evil","3.44",1305,0,0,19.6925,-14.7745,8
+316,"Jamie Campbell",36,"A Hairy Tail","3.96",443,0,0,-27.93,3.3045,1
+317,"Jamie Campbell",36,"Star Struck","3.5",414,0,0,25.0345,27.563,6
+318,"Jamie Campbell",36,"Through a Tangled Wood","3.45",163,0,0,10.7985,-42.2395,9
+319,"Jamie Campbell",36,"Star Kissed","3.86",141,0,0,-14.711,28.82,3
+320,"Jamie Campbell",36,"Ignite","3.62",148,0,0,21.761,-3.2335,7
+321,"Jamie Campbell",36,"A World Without Angels","3.75",96,0,0,8.629,23.109,4
+322,"Jamie Campbell",36,"Starburst","3.93",72,0,0,17.664,24.446,5
+323,"Jamie Campbell",36,"Saving Rapunzel","3.88",66,0,0,-9.8425,13.0815,2
+324,"Will Wight",37,"House of Blades","4.08",6339,0,0,-20.641,-21.351,7
+325,"Will Wight",37,"The Crimson Vault","4.18",4881,0,0,-33.7075,13.2945,9
+326,"Will Wight",37,"City of Light","4.15",3638,0,0,-4.218,-26.1155,6
+327,"Will Wight",37,"Unsouled","4.32",1098,0,0,34.816,18.969,1
+328,"Will Wight",37,"Soulsmith","4.52",706,0,0,-38.8835,-6.423,8
+329,"Will Wight",37,"Tower of Winter","4.03",752,0,0,-11.371,38.9155,10
+330,"Will Wight",37,"Of Shadow and Sea","4.12",666,0,0,22.637,4.79000000000001,2
+331,"Will Wight",37,"Gardens of Mist","4.06",649,0,0,5.92900000000001,-41.5755,5
+332,"Will Wight",37,"The Lightning Wastes","4.16",624,0,0,5.06,-9.2935,4
+333,"Will Wight",37,"Of Sea and Shadow","4.3",548,0,0,22.0675,3.9775,3
+334,"Laurell K. Hamilton",38,"Guilty Pleasures","4.01",109280,0,0,-9.6565,29.4315,8
+335,"Laurell K. Hamilton",38,"Circus of the Damned","4.16",77895,0,0,21.1295,43.6335,10
+336,"Laurell K. Hamilton",38,"The Laughing Corpse","4.11",65963,0,0,46.764,-6.2245,2
+337,"Laurell K. Hamilton",38,"The Lunatic Cafe","4.12",61090,0,0,-3.2585,-23.8385,5
+338,"Laurell K. Hamilton",38,"Bloody Bones","4.1",59401,0,0,36.9195,-15.7265,3
+339,"Laurell K. Hamilton",38,"The Killing Dance","4.12",57505,0,0,44,-2.649,1
+340,"Laurell K. Hamilton",38,"Burnt Offerings","4.06",54082,0,0,1.9235,16.329,9
+341,"Laurell K. Hamilton",38,"Blue Moon","4.04",53133,0,0,-29.7505,15.6885,7
+342,"Laurell K. Hamilton",38,"Obsidian Butterfly","4.07",52295,0,0,11.284,0.365499999999997,4
+343,"Laurell K. Hamilton",38,"Narcissus in Chains","3.89",47609,0,0,-15.0175,1.0575,6
+344,"Alice Hoffman",39,"The Dovekeepers","4.01",50311,0,0,-38.9505,-8.8065,4
+345,"Alice Hoffman",39,"Here on Earth","3.67",37961,0,0,12.3925,25.7785,8
+346,"Alice Hoffman",39,"Practical Magic","3.8",33296,0,0,5.177,0.577500000000008,7
+347,"Alice Hoffman",39,"The Museum of Extraordinary Things","3.72",31169,0,0,-31.5495,0.456000000000003,3
+348,"Alice Hoffman",39,"The Marriage of Opposites","3.85",25973,0,0,-33.89,27.732,1
+349,"Alice Hoffman",39,"The Red Garden","3.68",13664,0,0,-28.832,12.796,2
+350,"Alice Hoffman",39,"The Ice Queen","3.5",13152,0,0,23.58,-25.158,6
+351,"Alice Hoffman",39,"The Story Sisters","3.8",11226,0,0,23.501,41.5345,9
+352,"Alice Hoffman",39,"The Probable Future","3.82",10728,0,0,35.849,24.832,10
+353,"Alice Hoffman",39,"Blackbird House","3.81",8777,0,0,-8.782,-25.6275,5
+354,"Nicholas Sansbury Smith",40,"Extinction Horizon","3.94",2719,0,0,-32.175,23.105,5
+355,"Nicholas Sansbury Smith",40,"Extinction Edge","4.21",1560,0,0,-32.803,23.849,4
+356,"Nicholas Sansbury Smith",40,"Extinction Age","4.34",1240,0,0,-32.095,24.6185,3
+357,"Nicholas Sansbury Smith",40,"Orbs","3.49",1459,0,0,1.67699999999999,0.285999999999994,9
+358,"Nicholas Sansbury Smith",40,"Extinction Evolution","4.37",1029,0,0,-33.348,26.0855,1
+359,"Nicholas Sansbury Smith",40,"Extinction End","4.38",829,0,0,-33.4985,25.0105,2
+360,"Nicholas Sansbury Smith",40,"Hell Divers","4.07",771,0,0,1.55449999999999,22.4555,6
+361,"Nicholas Sansbury Smith",40,"Stranded","4.07",479,0,0,37.069,19.0115,8
+362,"Nicholas Sansbury Smith",40,"Redemption","4.09",335,0,0,2.947,32.873,7
+363,"Nicholas Sansbury Smith",40,"Solar Storms","3.78",310,0,0,7.85,-43.212,10
+364,"James Maxwell",41,"Enchantress","3.91",6753,0,0,4.90400000000001,-2.616,5
+365,"James Maxwell",41,"The Hidden Relic","4.06",4360,0,0,32.482,24.593,6
+366,"James Maxwell",41,"The Path of the Storm","4.17",3511,0,0,4.24250000000001,-42.016,3
+367,"James Maxwell",41,"The Lore of the Evermen","4.28",3283,0,0,-26.99,-31.621,1
+368,"James Maxwell",41,"Golden Age","3.83",1694,0,0,-15.5455,43.2785,7
+369,"James Maxwell",41,"Seven Words of Power","3.96",303,0,0,-13.288,-40.9595,2
+370,"James Maxwell",41,"Silver Road","4.38",34,0,0,2.62649999999999,-19.87,4
+371,"Christine Feehan",42,"Dark Prince","4.01",39852,0,0,16.9535,14.945,5
+372,"Christine Feehan",42,"Dark Desire","4.19",22273,0,0,-17.555,29.657,3
+373,"Christine Feehan",42,"Dark Magic","4.24",20645,0,0,25.1135,9.2255,9
+374,"Christine Feehan",42,"Dark Gold","4.16",19843,0,0,24.281,15.011,6
+375,"Christine Feehan",42,"Dark Fire","4.29",17954,0,0,25.6425,3.738,10
+376,"Christine Feehan",42,"Dark Guardian","4.33",17339,0,0,-36.5925,-9.274,1
+377,"Christine Feehan",42,"Dark Challenge","4.22",17647,0,0,24.204,13.854,7
+378,"Christine Feehan",42,"Dark Legend","4.33",16321,0,0,24.7785,10.5365,8
+379,"Christine Feehan",42,"Dark Demon","4.33",15812,0,0,10.239,17.8725,4
+380,"Christine Feehan",42,"Dark Destiny","4.28",14496,0,0,-35.871,31.073,2
+381,"Katherine Kurtz",43,"Deryni Rising","3.93",5548,0,0,-5.7135,34.6045,7
+382,"Katherine Kurtz",43,"High Deryni","4.02",5151,0,0,-34.53,-26.595,5
+383,"Katherine Kurtz",43,"Camber the Heretic","4",4856,0,0,-1.6765,17.8435,10
+384,"Katherine Kurtz",43,"Camber of Culdi","3.89",4039,0,0,-34.8595,-33.6285,4
+385,"Katherine Kurtz",43,"Saint Camber","4",3783,0,0,-3.0505,18.654,9
+386,"Katherine Kurtz",43,"Deryni Checkmate","4",3429,0,0,-28.486,-31.098,3
+387,"Katherine Kurtz",43,"The Quest for Saint Camber","4.05",3131,0,0,-31.27,26.606,6
+388,"Katherine Kurtz",43,"The Bishop's Heir","4.08",2907,0,0,-2.364,19.768,8
+389,"Katherine Kurtz",43,"The King's Justice","4.1",2602,0,0,25.392,-37.716,1
+390,"Katherine Kurtz",43,"The Harrowing of Gwynedd","4.04",1838,0,0,-25.1285,-38.71,2
+391,"Gina LaManna",44,"Hex on the Beach","3.89",954,0,0,-30.734,-29.064,4
+392,"Gina LaManna",44,"Witchy Sour","4.33",815,0,0,13.871,-26.905,5
+393,"Gina LaManna",44,"Sprinkled","3.63",819,0,0,-25.959,1.0965,2
+394,"Gina LaManna",44,"Sparkled","4.16",466,0,0,1.29249999999998,-6.602,6
+395,"Gina LaManna",44,"Salted","4.32",418,0,0,35.1615,20.217,8
+396,"Gina LaManna",44,"Sauced","4.39",385,0,0,34.3305,19.9,7
+397,"Gina LaManna",44,"S'mored","4.38",336,0,0,36.0935,20.739,10
+398,"Gina LaManna",44,"Spooked","4.44",304,0,0,35.2325,21.075,9
+399,"Gina LaManna",44,"Seasoned","4.55",269,0,0,-13.944,45.2835,1
+400,"Gina LaManna",44,"Spiced","4.57",224,0,0,-27.03,0.831500000000005,3
+401,"Mercedes Lackey",45,"Arrows of the Queen","4.16",26010,0,0,-16.8235,-15.122,5
+402,"Mercedes Lackey",45,"Magic's Pawn","4.21",19295,0,0,-5.8095,-16.5865,9
+403,"Mercedes Lackey",45,"By the Sword","4.23",17063,0,0,-15.973,-21.593,7
+404,"Mercedes Lackey",45,"Arrow's Fall","4.18",17061,0,0,-15.637,-22.586,8
+405,"Mercedes Lackey",45,"Magic's Price","4.26",16700,0,0,0.52150000000001,0.0405000000000015,2
+406,"Mercedes Lackey",45,"Arrow's Flight","4.13",16915,0,0,-20.592,-22.6325,6
+407,"Mercedes Lackey",45,"Magic's Promise","4.2",16190,0,0,0.589500000000001,-1.027,3
+408,"Mercedes Lackey",45,"The Fairy Godmother","3.96",14806,0,0,-8.1235,-1.766,4
+409,"Mercedes Lackey",45,"Winds of Fate","4.01",13203,0,0,3.4175,-37.0155,10
+410,"Mercedes Lackey",45,"Oathbreakers","4.15",12554,0,0,13.3955,42.81,1
+411,"K.R. Thompson",46,"Hidden Moon","4.01",400,0,0,24.9875,29.0425,1
+412,"K.R. Thompson",46,"Pan: The Untold Stories of Neverland","3.68",258,0,0,-1.5325,10.4725,6
+413,"K.R. Thompson",46,"Hook","4.2",188,0,0,-11.8975,-16.308,9
+414,"K.R. Thompson",46,"Once Upon a Haunted Moon","4.12",164,0,0,26.29,28.217,2
+415,"K.R. Thompson",46,"The Wolf","4.11",118,0,0,13.1225,5.02250000000001,3
+416,"K.R. Thompson",46,"Wynter's War","4.29",59,0,0,-26.7495,-20.0515,10
+417,"K.R. Thompson",46,"Nerida","4.33",27,0,0,-6.6935,11.4765,7
+418,"K.R. Thompson",46,"Charmed","4.11",28,0,0,1.063,-2.11449999999999,5
+419,"K.R. Thompson",46,"Jack","4.68",19,0,0,-9.0955,11.143,8
+420,"K.R. Thompson",46,"Haunted: Ghost Children: A Collection of Stories from Beyond","3.82",22,0,0,12.1045,-9.4165,4
+421,"Victor Kloss",47,"Elizabeth's Legacy","4.06",1183,0,0,-18.682,1.82749999999999,3
+422,"Victor Kloss",47,"The Shadowseeker","4.32",547,0,0,-7.843,-9.9695,5
+423,"Victor Kloss",47,"The Protectors","4.34",460,0,0,-37.681,-6.68,2
+424,"Victor Kloss",47,"The Silver Dwarf","4.5",399,0,0,-2.447,-17.077,6
+425,"Victor Kloss",47,"The Last Guardian","4.58",307,0,0,-38.657,-9.757,1
+426,"Victor Kloss",47,"Royal Institute of Magic: Books 1-3","4.36",66,0,0,-14.743,-5.447,4
+427,"Anne Rice",48,"Interview with the Vampire","3.97",377708,0,0,10.8155,-7.534,6
+428,"Anne Rice",48,"The Vampire Lestat","4.04",143478,0,0,-8.561,2.64250000000001,8
+429,"Anne Rice",48,"The Queen of the Damned","3.85",111630,0,0,-15.249,-6.616,3
+430,"Anne Rice",48,"The Witching Hour","4.1",83567,0,0,-5.337,41.8635,10
+431,"Anne Rice",48,"The Tale of the Body Thief","3.7",68875,0,0,-43.9855,-6.322,1
+432,"Anne Rice",48,"Memnoch the Devil","3.73",64465,0,0,17.8195,-12.6485,5
+433,"Anne Rice",48,"The Vampire Armand","3.74",55187,0,0,-5.2485,1.8915,7
+434,"Anne Rice",48,"Lasher","3.83",47954,0,0,-12.3295,10.9255,9
+435,"Anne Rice",48,"Taltos","3.78",42726,0,0,-28.226,-29.7135,2
+436,"Anne Rice",48,"The Mummy","3.81",36843,0,0,-8.0115,-3.972,4
+437,"Amanda M. Lee",49,"Any Witch Way You Can","4.01",4204,0,0,-0.903500000000001,-23.2835,4
+438,"Amanda M. Lee",49,"Every Witch Way But Wicked","4.21",2799,0,0,3.343,-23.702,3
+439,"Amanda M. Lee",49,"Witching You Were Here","4.27",2255,0,0,4.97299999999999,-0.508000000000003,8
+440,"Amanda M. Lee",49,"Witching on a Star","4.34",2057,0,0,12.353,22.6755,10
+441,"Amanda M. Lee",49,"Something to Witch About","4.39",1951,0,0,-10.0925,-15.7615,5
+442,"Amanda M. Lee",49,"Witch Me Luck","4.41",1782,0,0,22.4045,-36.4485,1
+443,"Amanda M. Lee",49,"Life's a Witch","4.49",1460,0,0,-0.381,-3.623,6
+444,"Amanda M. Lee",49,"Charms & Witchdemeanors","4.54",1108,0,0,-1.5305,-1.6365,7
+445,"Amanda M. Lee",49,"Witchy Tales: A Wicked Witches of the Midwest Fairy Tale","4.31",1117,0,0,11.4625,-6.212,9
+446,"Amanda M. Lee",49,"Wicked Brew","4.42",1026,0,0,14.135,-27.75,2
+447,"Robin Hobb",50,"Assassin's Apprentice","4.13",144336,0,0,-38.4465,-3.7285,5
+448,"Robin Hobb",50,"Royal Assassin","4.2",90755,0,0,-41.024,-1.408,7
+449,"Robin Hobb",50,"Assassin's Quest","4.17",73940,0,0,-43.3275,-0.646500000000003,8
+450,"Robin Hobb",50,"Fool's Errand","4.27",50955,0,0,-8.962,-10.9425,4
+451,"Robin Hobb",50,"Fool's Fate","4.36",44317,0,0,-36.0405,26.0885,10
+452,"Robin Hobb",50,"Golden Fool","4.31",43782,0,0,1.8805,-18.408,2
+453,"Robin Hobb",50,"Ship of Magic","4.11",38349,0,0,-8.041,-14.8825,3
+454,"Robin Hobb",50,"Ship of Destiny","4.2",31699,0,0,-34.62,23.655,9
+455,"Robin Hobb",50,"The Mad Ship","4.2",31321,0,0,9.496,-22.4055,1
+456,"Robin Hobb",50,"Fool's Assassin","4.34",20519,0,0,-41.384,-4.541,6
+457,"Marc Alan Edelheit",51,"Stiger's Tigers","4.21",885,0,0,2.39849999999999,8.7405,3
+458,"Marc Alan Edelheit",51,"The Tiger","4.36",641,0,0,11.3635,3.6675,4
+459,"Marc Alan Edelheit",51,"The Tiger's Fate","4.28",467,0,0,-37.2725,27.0235,2
+460,"Marc Alan Edelheit",51,"The Tiger's Fate: Chronicles of An Imperial Legionary Officer","4.6",5,0,0,-33.119,-18.7935,1
+461,"Marv Wolfman",52,"Crisis on Infinite Earths","4.01",12706,0,0,4.62400000000001,44.521,9
+462,"Marv Wolfman",52,"Batman: A Lonely Place of Dying","4.01",3404,0,0,42.7105,9.19,2
+463,"Marv Wolfman",52,"The New Teen Titans: The Judas Contract","4.28",1583,0,0,-1.3715,29.6125,6
+464,"Marv Wolfman",52,"John Carter of Mars: Warlord of Mars","4.21",387,0,0,18.1945,26.9965,3
+465,"Marv Wolfman",52,"The New Teen Titans: The Terror of Trigon","4.16",383,0,0,-3.943,32.043,7
+466,"Marv Wolfman",52,"Essential Tomb of Dracula, Vol. 1","3.86",412,0,0,-0.0870000000000033,-23.955,1
+467,"Marv Wolfman",52,"Superman Returns","3.63",407,0,0,2.0305,29.934,4
+468,"Marv Wolfman",52,"The New Teen Titans Archives, Vol. 1","4.14",301,0,0,-0.853499999999997,30.3215,5
+469,"Marv Wolfman",52,"Superman: Infinite Crisis","3.34",369,0,0,-3.548,44.23,8
+470,"Sherrilyn Kenyon",53,"Fantasy Lover","4.17",70498,0,0,-14.9715,25.905,4
+471,"Sherrilyn Kenyon",53,"Night Pleasures","4.23",59473,0,0,-16.7055,34.253,6
+472,"Sherrilyn Kenyon",53,"Dance with the Devil","4.39",52814,0,0,11.52,-17.812,2
+473,"Sherrilyn Kenyon",53,"Acheron","4.59",45529,0,0,-6.1125,8.521,3
+474,"Sherrilyn Kenyon",53,"Night Embrace","4.25",45423,0,0,-8.9645,44.319,7
+475,"Sherrilyn Kenyon",53,"Night Play","4.36",42862,0,0,-6.163,45.774,10
+476,"Sherrilyn Kenyon",53,"Seize the Night","4.36",37423,0,0,-9.0065,46.1695,9
+477,"Sherrilyn Kenyon",53,"Kiss of the Night","4.24",34972,0,0,-18.77,33.128,5
+478,"Sherrilyn Kenyon",53,"The Dream Hunter","4.06",35076,0,0,-30.817,-15.2785,1
+479,"Sherrilyn Kenyon",53,"Unleash the Night","4.34",32641,0,0,-10.6205,45.528,8
+480,"Kevin Hearne",54,"Hounded","4.12",51904,0,0,14.044,-19.014,4
+481,"Kevin Hearne",54,"Hexed","4.22",40474,0,0,3.4415,0.230999999999995,6
+482,"Kevin Hearne",54,"Hammered","4.22",34477,0,0,35.9925,22.253,10
+483,"Kevin Hearne",54,"Tricked","4.25",30810,0,0,15.509,-17.676,5
+484,"Kevin Hearne",54,"Trapped","4.28",27897,0,0,37.4275,20.0375,9
+485,"Kevin Hearne",54,"Hunted","4.3",22419,0,0,-27.371,-21.092,1
+486,"Kevin Hearne",54,"Shattered","4.28",17190,0,0,12.358,-21.0185,3
+487,"Kevin Hearne",54,"Two Ravens and One Crow","4.2",12286,0,0,-10.607,-38.258,2
+488,"Kevin Hearne",54,"Staked","4.21",8602,0,0,41.8655,-0.394500000000001,8
+489,"Kevin Hearne",54,"The Grimoire of the Lamb","4.15",7922,0,0,10.184,3.238,7
+490,"C.N. Crawford",55,"Infernal Magic","4.01",427,0,0,13.783,-26.1955,4
+491,"C.N. Crawford",55,"Magic Hunter","4.03",408,0,0,-32.874,-14.7635,7
+492,"C.N. Crawford",55,"The Witching Elm","3.66",252,0,0,9.753,-42.9265,5
+493,"C.N. Crawford",55,"Witch Hunter","4.36",151,0,0,-35.365,-16.379,8
+494,"C.N. Crawford",55,"A Witch's Feast","4.11",62,0,0,-37.249,25.1275,9
+495,"C.N. Crawford",55,"Witches of the Deep","4.24",34,0,0,-1.216,-24.7835,6
+496,"C.N. Crawford",55,"Nocturnal Magic","4.61",23,0,0,23.552,9.538,1
+497,"C.N. Crawford",55,"The Abysmal Sea","4.13",15,0,0,16.791,-21.793,3
+498,"C.N. Crawford",55,"The Dragonfly","4.67",3,0,0,13.753,3.4095,2
+499,"Patricia Briggs",56,"Moon Called","4.18",124170,0,0,16.74,23.471,5
+500,"Patricia Briggs",56,"Blood Bound","4.31",83809,0,0,34.593,-18.227,9
+501,"Patricia Briggs",56,"Iron Kissed","4.36",82809,0,0,-18.088,24.872,2
+502,"Patricia Briggs",56,"Bone Crossed","4.34",74395,0,0,34.8145,-16.5245,8
+503,"Patricia Briggs",56,"Silver Borne","4.38",72545,0,0,2.8775,35.468,4
+504,"Patricia Briggs",56,"Cry Wolf","4.11",66795,0,0,11.858,4.932,7
+505,"Patricia Briggs",56,"River Marked","4.25",57752,0,0,36.373,17.5,6
+506,"Patricia Briggs",56,"Hunting Ground","4.26",45121,0,0,-22.8155,-19.939,1
+507,"Patricia Briggs",56,"Frost Burned","4.34",43655,0,0,29.095,-24.4465,10
+508,"Patricia Briggs",56,"Night Broken","4.42",33808,0,0,-6.87,46.8895,3
+509,"Michael J. Sullivan",57,"Theft of Swords","4.2",31697,0,0,-17.387,-23.052,9
+510,"Michael J. Sullivan",57,"Rise of Empire","4.34",24276,0,0,5.435,36.263,2
+511,"Michael J. Sullivan",57,"Heir of Novron","4.45",23584,0,0,-17.9195,-7.766,6
+512,"Michael J. Sullivan",57,"The Crown Tower","4.31",15550,0,0,-19.2975,-8.7405,7
+513,"Michael J. Sullivan",57,"The Rose and the Thorn","4.38",11019,0,0,11.3505,-45.9205,10
+514,"Michael J. Sullivan",57,"The Crown Conspiracy","4.13",11165,0,0,-16.2785,-8.545,5
+515,"Michael J. Sullivan",57,"Avempartha","4.28",6181,0,0,-29.783,-28.19,8
+516,"Michael J. Sullivan",57,"Nyphron Rising","4.31",5109,0,0,-1.1675,31.624,3
+517,"Michael J. Sullivan",57,"Wintertide","4.41",4876,0,0,-12.8105,43.143,1
+518,"Michael J. Sullivan",57,"Percepliquis","4.53",4482,0,0,-7.97,7.841,4
+519,"Charlaine Harris",58,"Dead Until Dark","3.95",426232,0,0,42.8685,3.783,5
+520,"Charlaine Harris",58,"Living Dead in Dallas","3.97",203067,0,0,43.5895,7.67099999999999,7
+521,"Charlaine Harris",58,"Dead to the World","4.13",195327,0,0,45.984,4.43599999999999,4
+522,"Charlaine Harris",58,"Club Dead","4.03",192022,0,0,31.081,38.3915,9
+523,"Charlaine Harris",58,"Dead as a Doornail","4.01",174221,0,0,39.3485,2.3935,6
+524,"Charlaine Harris",58,"All Together Dead","4.06",169128,0,0,28.702,37.1385,10
+525,"Charlaine Harris",58,"Definitely Dead","4.02",168277,0,0,46.9805,2.50549999999999,3
+526,"Charlaine Harris",58,"From Dead to Worse","4.01",157400,0,0,43.4645,-5.098,1
+527,"Charlaine Harris",58,"Dead and Gone","4.01",152398,0,0,46.8585,-0.0529999999999973,2
+528,"Charlaine Harris",58,"Dead in the Family","3.88",133600,0,0,31.581,36.199,8
+529,"A.W. Exley",59,"Nefertiti's Heart","3.83",2459,0,0,-11.6365,7.247,6
+530,"A.W. Exley",59,"Hatshepsut's Collar","4.12",918,0,0,-15.917,2.77499999999999,8
+531,"A.W. Exley",59,"Ella, The Slayer","3.68",899,0,0,-39.927,-5.6135,9
+532,"A.W. Exley",59,"Nero's Fiddle","4.21",573,0,0,-11.068,13.846,7
+533,"A.W. Exley",59,"The Unicorn's Tail","3.91",465,0,0,6.865,3.9055,2
+534,"A.W. Exley",59,"Moseh's Staff","4.29",366,0,0,-13.513,1.229,5
+535,"A.W. Exley",59,"Obsidian Eyes","4.04",278,0,0,1.0895,-17.38,4
+536,"A.W. Exley",59,"Heart of the Kraken","3.62",214,0,0,7.48799999999999,2.9075,3
+537,"A.W. Exley",59,"The Missing Mechanical Mouse","4.03",74,0,0,28.9965,22.886,1
+538,"A.W. Exley",59,"Henry, The Gaoler","3.68",60,0,0,-40.7285,-7.43,10
+539,"Cassandra Sky West",60,"With the Dawn","3.73",30,0,0,-11.435,43.936,1
+540,"Cassandra Sky West",60,"Blood Sacrifice","4.21",14,0,0,42.1125,-19.512,2
+541,"Terry Goodkind",61,"Wizard's First Rule","4.12",173044,1,0,-7.0925,-40.086,10
+542,"Terry Goodkind",61,"Stone of Tears","4.1",86015,0,0,5.2145,-17.6945,5
+543,"Terry Goodkind",61,"Blood of the Fold","3.98",61204,0,0,36.84,-17.4045,8
+544,"Terry Goodkind",61,"Temple of the Winds","4.02",58372,1,0,7.73649999999999,-41.7885,9
+545,"Terry Goodkind",61,"Faith of the Fallen","4.11",53719,1,0,13.712,41.3205,1
+546,"Terry Goodkind",61,"Soul of the Fire","3.86",48812,0,0,19.5085,-4.221,6
+547,"Terry Goodkind",61,"The Pillars of Creation","3.67",43412,0,0,-0.435000000000009,19.43,2
+548,"Terry Goodkind",61,"Confessor","4.07",38151,0,0,-7.092,-6.7665,3
+549,"Terry Goodkind",61,"Chainfire","3.95",38664,0,0,20.796,-3.572,7
+550,"Terry Goodkind",61,"Naked Empire","3.81",39826,0,0,-0.464500000000001,-12.349,4
+551,"Scott Meyer",62,"Off to Be the Wizard","3.98",14618,0,0,-2.2485,-4.049,4
+552,"Scott Meyer",62,"Spell or High Water","4",8339,0,0,0.826999999999998,-30.283,9
+553,"Scott Meyer",62,"An Unwelcome Quest","3.98",6175,0,0,-31.6935,25.701,2
+554,"Scott Meyer",62,"Master of Formalities","3.83",1287,0,0,-4.5775,-10.791,5
+555,"Scott Meyer",62,"The Authorities","3.93",939,0,0,-1.307,-10.5475,6
+556,"Scott Meyer",62,"Help Is on the Way: A Collection of Basic Instructions: Collection of Basic Instructions v. 1","4.32",75,0,0,11.569,-10.959,7
+557,"Scott Meyer",62,"Made with 90% Recycled Art","4.34",38,0,0,0.848999999999997,34.465,1
+558,"Scott Meyer",62,"Curse of the Masking Tape Mummy: Basic Instructions","4.65",31,0,0,8.9725,-23.752,8
+559,"Scott Meyer",62,"Dignified Hedonism","4.29",14,0,0,-27.0015,-0.385000000000005,3
+560,"Alisa Woods",63,"Jaxson","3.91",1723,0,0,-10.794,10.451,7
+561,"Alisa Woods",63,"Desired","3.9",1071,0,0,-17.658,26.1435,3
+562,"Alisa Woods",63,"Jace","4.13",780,0,0,-9.7855,11.58,5
+563,"Alisa Woods",63,"Jared","4.24",630,0,0,-10.0395,10.9425,6
+564,"Alisa Woods",63,"Wild Game","4.11",606,0,0,7.88150000000001,-44.09,10
+565,"Alisa Woods",63,"True Alpha","4.23",573,0,0,2.74250000000001,-6.02,8
+566,"Alisa Woods",63,"Kiss of a Dragon","4.03",538,0,0,-19.373,19.675,4
+567,"Alisa Woods",63,"Guarded","4.07",428,0,0,35.865,21.48,1
+568,"Alisa Woods",63,"Wild Love","4.33",375,0,0,8.94200000000001,-36.043,9
+569,"Alisa Woods",63,"A True Alpha Christmas","4.26",367,0,0,-13.6665,42.5045,2
+570,"Brittany Fichter",64,"Before Beauty: A Retelling of Beauty and the Beast","3.84",201,0,0,-22.953,6.37250000000002,3
+571,"Brittany Fichter",64,"Girl in the Red Hood: A Retelling of Little Red Riding Hood","3.82",67,0,0,-37.496,14.0775,1
+572,"Brittany Fichter",64,"Blinding Beauty: A Retelling of the Princess and the Glass Hill","4.05",38,0,0,-28.7895,4.4325,2
+573,"Brittany Fichter",64,"The Princess and St. George's Dragon","3.4",25,0,0,3.942,8.215,5
+574,"Brittany Fichter",64,"Beauty Beheld: A Retelling of Hansel and Gretel","4.5",16,0,0,-7.69,18.408,4
+575,"Emma L. Adams",65,"Faerie Blood","3.93",870,0,0,35.417,-14.657,7
+576,"Emma L. Adams",65,"Faerie Magic","4.08",514,0,0,-1.4055,0.176000000000002,3
+577,"Emma L. Adams",65,"Faerie Realm","4.2",326,0,0,-2.3855,-9.8885,4
+578,"Emma L. Adams",65,"Darkness Watching","3.75",307,0,0,20.894,11.7615,8
+579,"Emma L. Adams",65,"Adamant","3.88",189,0,0,-25.0995,1.4795,1
+580,"Emma L. Adams",65,"Faerie Wrath","4.25",161,0,0,6.346,-22.4885,5
+581,"Emma L. Adams",65,"Nemesis","4.14",107,0,0,-7.978,-6.7375,2
+582,"Emma L. Adams",65,"Collision","4.2",79,0,0,15.2205,-20.828,6
+583,"Emma L. Adams",65,"Walking Shadow","4.05",80,0,0,25.173,14.3525,9
+584,"Sam Sisavath",66,"The Purge of Babylon","4.05",2768,0,0,-5.028,33.6015,10
+585,"Sam Sisavath",66,"The Gates of Byzantium","4.27",1708,0,0,-23.456,-28.079,4
+586,"Sam Sisavath",66,"The Stones of Angkor","4.35",1469,0,0,-31.439,-30.993,7
+587,"Sam Sisavath",66,"The Fires of Atlantis","4.38",1255,0,0,-21.006,-33.604,2
+588,"Sam Sisavath",66,"The Ashes of Pompeii","4.4",996,0,0,-22.0715,-33.0425,3
+589,"Sam Sisavath",66,"The Isles of Elysium","4.4",922,0,0,-6.7655,-28.6325,1
+590,"Sam Sisavath",66,"The Walls of Lemuria","4.28",869,0,0,-24.315,-27.461,5
+591,"Sam Sisavath",66,"The Spears of Laconia","4.35",755,0,0,-24.722,-25.251,6
+592,"Sam Sisavath",66,"The Fields of Lemuria","4.32",754,0,0,-36.524,-25.848,8
+593,"Sam Sisavath",66,"Hunter/Prey","4.06",763,0,0,-35.186,-17.103,9
+594,"Cameron Jace",67,"Insanity","3.86",4671,0,0,-25.699,-0.685499999999998,6
+595,"Cameron Jace",67,"Grimm Diaries Prequels","3.84",3328,0,0,-0.7515,9.83100000000001,4
+596,"Cameron Jace",67,"Snow White Blood Red","3.77",2977,0,0,-36.5105,11.6895,8
+597,"Cameron Jace",67,"Snow White Sorrow","3.83",2195,0,0,-38.363,10.867,9
+598,"Cameron Jace",67,"I Am Alive","3.92",1545,0,0,-27.024,1.676,7
+599,"Cameron Jace",67,"The Grimm Diaries Prequels 7- 10","4.17",1403,0,0,-2.437,9.33300000000001,5
+600,"Cameron Jace",67,"Ashes to Ashes and Cinder to Cinder","3.75",1553,0,0,27.0745,-2.0675,2
+601,"Cameron Jace",67,"Beauty Never Dies","3.77",1394,0,0,46.5545,1.036,1
+602,"Cameron Jace",67,"Ladle Rat Rotten Hut","3.97",1248,0,0,19.603,-11.5605,3
+603,"Elizabeth Hunter",68,"A Hidden Fire","4.06",17990,0,0,42.9275,18.7135,1
+604,"Elizabeth Hunter",68,"This Same Earth","4.24",11486,0,0,13.311,24.651,3
+605,"Elizabeth Hunter",68,"The Force of Wind","4.29",10079,0,0,8.7715,-45.0445,8
+606,"Elizabeth Hunter",68,"A Fall of Water","4.34",9289,0,0,26.5285,-25.2265,7
+607,"Elizabeth Hunter",68,"The Scribe","4.2",5985,0,0,-40.887,-8.2785,9
+608,"Elizabeth Hunter",68,"Building From Ashes","4.29",4790,0,0,24.7,-8.978,5
+609,"Elizabeth Hunter",68,"The Singer","4.17",3953,0,0,-39.8235,-6.691,10
+610,"Elizabeth Hunter",68,"Blood and Sand","4.37",3247,0,0,30.948,-14.91,6
+611,"Elizabeth Hunter",68,"The Secret","4.3",2753,0,0,7.9905,-7.4005,4
+612,"Elizabeth Hunter",68,"Waterlocked","4.21",2263,0,0,37.6375,21.646,2
+613,"Rachel Morgan",69,"The Faerie Guardian","3.98",4657,0,0,-38.808,-12.353,2
+614,"Rachel Morgan",69,"The Faerie Prince","4.35",2534,0,0,-13.671,-4.203,5
+615,"Rachel Morgan",69,"The Faerie War","4.36",2215,0,0,-25.8125,-18.745,4
+616,"Rachel Morgan",69,"A Faerie's Secret","4.45",881,0,0,9.002,-7.783,6
+617,"Rachel Morgan",69,"The Trouble with Flying","3.96",762,0,0,7.58649999999999,-26.7125,8
+618,"Rachel Morgan",69,"A Faerie's Revenge","4.51",652,0,0,6.4105,-21.675,7
+619,"Rachel Morgan",69,"The Faerie Guardian, Part I","3.93",635,0,0,-39.5015,-13.231,3
+620,"Rachel Morgan",69,"Forgiven","3.75",274,0,0,23.4725,-34.671,9
+621,"Rachel Morgan",69,"The Trouble with Flirting","3.91",261,0,0,-15.957,28.171,1
+622,"V. Vaughn",70,"Brindle","3.59",583,0,0,-4.9495,11.402,4
+623,"V. Vaughn",70,"Called by the Bear, Part 1","3.9",508,0,0,12.167,6.35449999999999,7
+624,"V. Vaughn",70,"Called by the Bear, Part 2","4.09",312,0,0,13.523,7.6315,8
+625,"V. Vaughn",70,"Bosun","3.96",314,0,0,-5.279,12.215,3
+626,"V. Vaughn",70,"Berch","4.01",284,0,0,-5.8525,11.6635,2
+627,"V. Vaughn",70,"Called by the Bear, Part 3","4.08",271,0,0,14.232,6.9195,9
+628,"V. Vaughn",70,"Andre","3.98",214,0,0,-5.1095,10.5535,5
+629,"V. Vaughn",70,"Tempted by the Bear: Part 1","4.08",204,0,0,-20.266,21.345,1
+630,"V. Vaughn",70,"Called by the Bear, Part 4","4.21",197,0,0,11.726,7.18650000000001,6
+631,"Terry Brooks",71,"The Sword of Shannara","3.75",60073,0,0,-17.767,-18.413,10
+632,"Terry Brooks",71,"The Elfstones of Shannara","3.96",52696,0,0,-14.373,2.514,6
+633,"Terry Brooks",71,"The Wishsong of Shannara","3.96",35238,0,0,-11.9295,14.988,3
+634,"Terry Brooks",71,"The Talismans of Shannara","4",32250,0,0,-15.2575,10.445,4
+635,"Terry Brooks",71,"Magic Kingdom For Sale/Sold","3.86",28081,0,0,-11.779,-4.555,8
+636,"Terry Brooks",71,"The Druid of Shannara","4",25503,0,0,-15.57,9.0065,5
+637,"Terry Brooks",71,"The Elf Queen of Shannara","4.01",24054,0,0,-14.38,-3.059,7
+638,"Terry Brooks",71,"The Scions of Shannara","3.96",23699,0,0,15.4645,43.9305,1
+639,"Terry Brooks",71,"First King of Shannara","3.93",23702,0,0,-14.977,-16.0545,9
+640,"Terry Brooks",71,"Running with the Demon","3.94",21064,0,0,3.374,21.902,2
+641,"Aya Ling",72,"The Ugly Stepsister","3.96",1053,0,0,-23.525,-3.5405,2
+642,"Aya Ling",72,"Princesses Don't Get Fat","3.52",451,0,0,-21.22,-3.2335,3
+643,"Aya Ling",72,"Princess of Athelia: An Unfinished Fairy Tales Novella","3.97",220,0,0,-27.295,-33.6645,7
+644,"Aya Ling",72,"Princesses Don't Fight in Skirts","3.85",143,0,0,-19.179,-13.244,5
+645,"Aya Ling",72,"Princesses Don't Become Engineers","3.74",74,0,0,-38.482,-1.00950000000001,1
+646,"Aya Ling",72,"Girl with Flying Weapons","3.89",55,0,0,-31.1335,-16.406,6
+647,"Aya Ling",72,"The Princess Series","4.15",20,0,0,-16.2605,-4.3065,4
+648,"Aya Ling",72,"Twice Upon A Time","4",3,0,0,-10.969,-43.3525,8
+649,"Helen Harper",73,"Bloodfire","3.96",6391,0,0,22.5765,-3.2765,2
+650,"Helen Harper",73,"Bloodmagic","4.02",4906,0,0,1.94650000000001,-2.5545,7
+651,"Helen Harper",73,"Bloodrage","4.04",4556,0,0,2.13099999999999,-5.3045,6
+652,"Helen Harper",73,"Blood Politics","4.07",4091,0,0,38.2735,-14.142,3
+653,"Helen Harper",73,"Bloodlust","4.07",3525,0,0,-15.783,26.909,9
+654,"Helen Harper",73,"Gifted Thief","4.04",2971,0,0,-36.73,-6.038,10
+655,"Helen Harper",73,"Honour Bound","4.24",2123,0,0,26.303,-35.469,4
+656,"Helen Harper",73,"Veiled Threat","4.42",1650,0,0,39.409,13.2605,1
+657,"Helen Harper",73,"Dire Straits","3.85",1460,0,0,3.83200000000001,-25.458,5
+658,"Helen Harper",73,"New Order","3.98",1073,0,0,5.18300000000001,35.2025,8
+659,"Robert J. Crane",74,"The Girl in the Box Series","4.01",8021,0,0,-10.7545,-14.8365,4
+660,"Robert J. Crane",74,"Alone","3.78",6639,0,0,35.9295,18.9855,7
+661,"Robert J. Crane",74,"Untouched","3.97",4170,0,0,34.2685,20.7875,8
+662,"Robert J. Crane",74,"Soulless","3.99",3669,0,0,17.649,43.638,9
+663,"Robert J. Crane",74,"Family","4.23",3408,0,0,16.6035,42.913,10
+664,"Robert J. Crane",74,"Omega","4.3",2894,0,0,0.679499999999997,-8.611,5
+665,"Robert J. Crane",74,"Broken","4.25",2686,0,0,13.1415,-20.176,6
+666,"Robert J. Crane",74,"Enemies","4.31",2353,0,0,-27.128,-17.1835,3
+667,"Robert J. Crane",74,"Legacy","4.31",2233,0,0,-24.986,0.704000000000008,2
+668,"Robert J. Crane",74,"Destiny","4.33",2053,0,0,-35.483,24.5215,1
+669,"RaShelle Workman",75,"Blood and Snow","3.72",3927,0,0,34.8055,-19.7685,9
+670,"RaShelle Workman",75,"Exiled","3.57",1604,0,0,14.319,-20.086,7
+671,"RaShelle Workman",75,"Revenant in Training","3.83",1322,0,0,-3.2905,-7.5335,6
+672,"RaShelle Workman",75,"Prey and Magic","3.91",1259,0,0,-0.360500000000002,-2.517,5
+673,"RaShelle Workman",75,"The Vampire Christopher","3.85",1240,0,0,-6.31,2.954,4
+674,"RaShelle Workman",75,"Blood Soaked Promises","3.87",1198,0,0,36.192,-19.211,10
+675,"RaShelle Workman",75,"Masquerade's Moon","3.99",1055,0,0,-36.252,28.0855,1
+676,"RaShelle Workman",75,"Seal of Gabriel","3.94",969,0,0,1.52050000000001,7.86549999999999,3
+677,"RaShelle Workman",75,"Telltale Kisses","3.99",918,0,0,-16.4485,25.007,2
+678,"RaShelle Workman",75,"Love Bleeds","4.02",888,0,0,30.336,-8.4655,8
+679,"K. M. Shea",77,"Beauty and the Beast","4.04",2916,0,0,-24.335,7.062,4
+680,"K. M. Shea",77,"Cinderella and the Colonel","4.27",1466,0,0,-28.618,-17.661,1
+681,"K. M. Shea",77,"Heart of Ice","4.15",1289,0,0,27.258,-26.1835,9
+682,"K. M. Shea",77,"Rumpelstiltskin","4.26",1106,0,0,-11.1775,12.4555,6
+683,"K. M. Shea",77,"The Wild Swans","3.88",1116,0,0,9.68650000000001,-45.685,10
+684,"K. M. Shea",77,"Red Rope of Fate","4.16",999,0,0,-34.154,22.2515,5
+685,"K. M. Shea",77,"The Little Selkie","4.23",820,0,0,-22.86,7.4085,3
+686,"K. M. Shea",77,"Sacrifice","4.32",782,0,0,3.51899999999999,19.941,7
+687,"K. M. Shea",77,"My Life at the M.B.R.C.","4.32",642,0,0,4.9755,-7.2455,8
+688,"K. M. Shea",77,"Enthroned","4.01",689,0,0,-20.729,-5.4335,2
+689,"Shari L. Tapscott",78,"Pippa of Lauramore","4.02",523,0,0,-36.2755,-34.2525,7
+690,"Shari L. Tapscott",78,"Seirsha of Errinton","4.23",159,0,0,-36.024,-32.9775,8
+691,"Shari L. Tapscott",78,"Anwen of Primewood","4.1",159,0,0,-34.8245,-34.8865,6
+692,"Shari L. Tapscott",78,"Just the Essentials","4.14",115,0,0,24.9145,-33.244,1
+693,"Shari L. Tapscott",78,"Glitter and Sparkle","4.05",117,0,0,0.382499999999993,-7.001,3
+694,"Shari L. Tapscott",78,"Audette of Brookraven","4.34",101,0,0,-33.2905,-34.333,5
+695,"Shari L. Tapscott",78,"Rosie of Triblue","4.09",65,0,0,-33.0995,-33.3465,4
+696,"Shari L. Tapscott",78,"Grace of Vernow","4.06",65,0,0,-34.372,-32.8225,9
+697,"Shari L. Tapscott",78,"Puss without Boots: A Puss in Boots Retelling","4.29",34,0,0,8.60449999999999,4.77799999999999,2
+698,"Casey Lane",79,"Cinderella Dreams of Fire","3.76",133,0,0,21.736,-1.119,1
+699,"Casey Lane",79,"Snow White's Revenge","4",14,0,0,-39.365,11.741,2
+700,"Melanie Cellier",80,"The Princess Companion: A Retelling of The Princess and the Pea","4.21",192,0,0,-6.7845,23.763,4
+701,"Melanie Cellier",80,"The Princess Fugitive: A Reimagining of Little Red Riding Hood","4.32",74,0,0,-36.251,14.8315,3
+702,"Melanie Cellier",80,"The Kitchen Maid","3.5",4,0,0,-36.033,-7.2585,2
+703,"Melanie Cellier",80,"Happily Ever Afters: A Four Kingdoms Novella","4.5",2,0,0,-4.7085,-44.6785,1
+704,"Glynn Stewart",81,"Starship's Mage: Omnibus","4.19",1384,0,0,10.698,24.8155,9
+705,"Glynn Stewart",81,"Hand of Mars","4.28",1008,0,0,16.0335,21.4345,4
+706,"Glynn Stewart",81,"Voice of Mars","4.34",903,0,0,18.487,23.5325,5
+707,"Glynn Stewart",81,"Space Carrier Avalon","4.14",783,0,0,-23.819,-28.9925,2
+708,"Glynn Stewart",81,"Alien Arcana","4.48",525,0,0,9.04050000000001,-7.0735,3
+709,"Glynn Stewart",81,"The Terran Privateer","4.36",515,0,0,-30.964,-26.557,1
+710,"Glynn Stewart",81,"Stellar Fox","4.21",453,0,0,14.959,22.258,6
+711,"Glynn Stewart",81,"Starship's Mage: Episode 1","4.06",448,0,0,11.0395,23.988,8
+712,"Glynn Stewart",81,"Battle Group Avalon","4.19",366,0,0,15.76,45.1615,10
+713,"Glynn Stewart",81,"Starship's Mage: Episode 2","4.07",267,0,0,12.0385,23.4225,7
+714,"Stacey Marie Brown",82,"Darkness of Light","4",5873,0,0,26.522,12.176,7
+715,"Stacey Marie Brown",82,"Fire in the Darkness","4.29",3602,0,0,26.079,4.5505,6
+716,"Stacey Marie Brown",82,"Dwellers of Darkness","4.29",2933,0,0,19.45,36.2605,10
+717,"Stacey Marie Brown",82,"City in Embers","4.13",2898,0,0,23.574,-8.231,3
+718,"Stacey Marie Brown",82,"Blood Beyond Darkness","4.35",2179,0,0,37.3005,-9.5855,4
+719,"Stacey Marie Brown",82,"The Barrier Between","4.33",1863,0,0,-10.439,-16.6385,1
+720,"Stacey Marie Brown",82,"Across The Divide","4.35",1482,0,0,-5.2805,-23.7435,2
+721,"Stacey Marie Brown",82,"Beast in the Darkness","4.23",1002,0,0,21.863,12.46,8
+722,"Stacey Marie Brown",82,"From Burning Ashes","4.49",911,0,0,28.1915,-3.921,5
+723,"Stacey Marie Brown",82,"Hidden Worlds","4.09",126,0,0,23.726,28.8075,9
+724,"Marina Finlayson",83,"Twiceborn","3.76",167,0,0,2.4055,32.0435,6
+725,"Marina Finlayson",83,"Stolen Magic","4.18",101,0,0,14.901,-28.4035,1
+726,"Marina Finlayson",83,"The Twiceborn Queen","4.14",59,0,0,-5.0715,24.259,5
+727,"Marina Finlayson",83,"The Fairytale Curse","3.71",49,0,0,13.4815,-13.844,2
+728,"Marina Finlayson",83,"Twiceborn Endgame","4.39",41,0,0,2.72299999999998,33.959,7
+729,"Marina Finlayson",83,"Moonborn","4.21",28,0,0,-8.405,-9.323,3
+730,"Marina Finlayson",83,"The Cauldron's Gift","4.25",20,0,0,-22.694,0.183999999999997,4
+731,"Marina Finlayson",83,"The Family Business","4.33",15,0,0,22.416,42.353,8
+732,"Carrie Anne Noble",84,"The Mermaid's Sister","3.64",9387,0,0,-9.6245,-0.890999999999998,1
+733,"Carrie Anne Noble",84,"Deep Magic - June 2016","4.2",40,0,0,-0.985999999999997,-26.782,2
+734,"Erika Johansen",85,"The Queen of the Tearling","4.02",40732,0,0,-29.593,-32.557,1
+735,"Erika Johansen",85,"The Invasion of the Tearling","4.16",20481,0,0,-26.0845,-23.6805,2
+736,"Erika Johansen",85,"The Fate of the Tearling","4.14",377,0,0,-29.913,24.441,3
+737,"Val St. Crowe",86,"Fire Song","3.87",430,0,0,19.927,-2.075,6
+738,"Val St. Crowe",86,"Fire Storm","4.1",218,0,0,6.985,-44.9465,9
+739,"Val St. Crowe",86,"Fire Magic","4.17",168,0,0,17.1995,-3.3145,7
+740,"Val St. Crowe",86,"Smoke","3.68",149,0,0,20.8735,-2.6575,5
+741,"Val St. Crowe",86,"Fire Marked","3.98",89,0,0,42.4895,16.7915,2
+742,"Val St. Crowe",86,"Fire Born","4.3",71,0,0,6.1855,29.5935,1
+743,"Val St. Crowe",86,"Embers","3.73",44,0,0,21.267,-2.253,4
+744,"Val St. Crowe",86,"Toil and Trouble, Book One","3.29",21,0,0,11.261,-20.03,8
+745,"Val St. Crowe",86,"Fire Brand","4.25",4,0,0,26.6905,-3.6085,3
+746,"Dannika Dark",89,"Seven Years","4.02",10911,0,0,-10.965,-44.2095,1
+747,"Dannika Dark",89,"Sterling","3.99",7480,0,0,-1.2685,-19.6775,6
+748,"Dannika Dark",89,"Six Months","4.12",6214,0,0,-9.5705,-42.8245,5
+749,"Dannika Dark",89,"Impulse","4.34",4927,0,0,1.19349999999999,-5.6795,8
+750,"Dannika Dark",89,"Five Weeks","4.27",4880,0,0,-8.4985,-43.4915,4
+751,"Dannika Dark",89,"Gravity","4.38",4672,0,0,5.61000000000001,-8.545,9
+752,"Dannika Dark",89,"Four Days","4.39",4526,0,0,-9.4855,-44.774,2
+753,"Dannika Dark",89,"Shine","4.45",3982,0,0,0.39950000000001,-7.779,7
+754,"Dannika Dark",89,"Three Hours","4.42",3960,0,0,-9.648,-43.9235,3
+755,"Jonathan Renshaw",90,"Dawn of Wonder","4.38",7300,0,0,23.317,-33.5785,1
+756,"Elianne Adams",91,"Shifters in the Spring","4.16",768,0,0,15.491,42.307,9
+757,"Elianne Adams",91,"Call of the Dragon","4.03",737,0,0,9.6455,6.94050000000001,4
+758,"Elianne Adams",91,"Releasing Her Dragon","3.98",259,0,0,6.3435,8.64899999999999,6
+759,"Elianne Adams",91,"Masters Of The Hunt: Fated and Forbidden","4.21",192,0,0,21.576,44.901,10
+760,"Elianne Adams",91,"Alpha Heat","4.07",192,0,0,-17.617,27.7085,8
+761,"Elianne Adams",91,"Alpha Fever","4.21",156,0,0,14.409,-22.071,3
+762,"Elianne Adams",91,"Rise of the Phoenix","4.35",133,0,0,6.1805,9.986,7
+763,"Elianne Adams",91,"More Wicked Alphas, Wild Nights","4.35",117,0,0,12.347,-46.7785,1
+764,"Elianne Adams",91,"Her Gingerbread Dragon","4.14",121,0,0,9.486,7.875,5
+765,"Elianne Adams",91,"Sugar, Spice, and Shifters","4.47",111,0,0,10.923,-41.4665,2
+766,"K.N. Lee",92,"Rise of the Flame","3.96",249,0,0,5.747,28.911,8
+767,"K.N. Lee",92,"Netherworld","3.91",244,0,0,-6.9055,-24.016,3
+768,"K.N. Lee",92,"Dark Prophet","4.48",94,0,0,10.1575,16.671,7
+769,"K.N. Lee",92,"A World of Joy","4.25",67,0,0,27.084,-37.034,4
+770,"K.N. Lee",92,"The Scarlett Legacy","3.74",76,0,0,-32.995,11.7405,1
+771,"K.N. Lee",92,"Academia of the Beast: A Dark Retelling of Beauty and the Beast","3.36",72,0,0,14.0295,9.8995,6
+772,"K.N. Lee",92,"Spell Slinger","3.81",59,0,0,-37.435,-11.7935,2
+773,"K.N. Lee",92,"Thicker Than Blood","4.47",45,0,0,33.6005,-15.6855,5
+774,"Dean Koontz",93,"Odd Thomas","3.92",203584,0,0,-20.434,1.7015,3
+775,"Dean Koontz",93,"Watchers","4.15",106774,0,0,-37.646,-7.8075,1
+776,"Dean Koontz",93,"Forever Odd","3.96",56701,0,0,-11.135,41.919,9
+777,"Dean Koontz",93,"Phantoms","3.92",55562,0,0,11.656,8.33550000000001,8
+778,"Dean Koontz",93,"Brother Odd","3.97",49655,0,0,-26.397,-4.9155,2
+779,"Dean Koontz",93,"Velocity","3.85",48630,0,0,4.238,-8.1765,7
+780,"Dean Koontz",93,"Lightning","4.05",45009,0,0,-0.426000000000009,-8.1175,5
+781,"Dean Koontz",93,"False Memory","3.86",36619,0,0,1.4235,-10.998,6
+782,"Dean Koontz",93,"The Husband","3.8",36792,0,0,-7.9445,-7.6815,4
+783,"Melissa F. Olson",94,"Boundary Crossed","3.98",7169,0,0,-7.081,-26.255,9
+784,"Melissa F. Olson",94,"Dead Spots","3.8",4850,0,0,41.152,-0.945999999999998,5
+785,"Melissa F. Olson",94,"Boundary Lines","4.15",3392,0,0,-5.7475,-25.657,8
+786,"Melissa F. Olson",94,"Trail of Dead","4.01",3305,0,0,40.8735,-2.9465,6
+787,"Melissa F. Olson",94,"Hunter's Trail","4.15",2536,0,0,-30.836,-17.2625,10
+788,"Melissa F. Olson",94,"Boundary Born","4.26",1775,0,0,4.44450000000001,32.5985,2
+789,"Melissa F. Olson",94,"Malediction: An Old World Story","3.92",646,0,0,6.898,43.8165,3
+790,"Melissa F. Olson",94,"Sell-By Date","3.85",641,0,0,-12.51,44.6755,1
+791,"Melissa F. Olson",94,"Shifters After Dark","3.87",555,0,0,20.0155,37.077,4
+792,"Melissa F. Olson",94,"Bloodsick","4.04",452,0,0,14.487,-17.1315,7
+793,"Amy A. Bartol",95,"Intuition","4.3",19191,0,0,-26.7105,-1.3485,1
+794,"Amy A. Bartol",95,"Incendiary","4.44",13349,0,0,21.865,-4.048,4
+795,"Amy A. Bartol",95,"Under Different Stars","4.25",9246,0,0,14.473,26.057,7
+796,"Amy A. Bartol",95,"Sea of Stars","4.28",5514,0,0,14.21,23.4835,6
+797,"Amy A. Bartol",95,"Darken the Stars","4.06",4337,0,0,19.148,20.506,5
+798,"Amy A. Bartol",95,"Iniquity","4.36",3799,0,0,-23.903,0.911000000000008,2
+799,"Amy A. Bartol",95,"Take Me To Your Reader: An Otherworld Anthology","3.97",159,0,0,10.7495,-10.1035,3
+800,"Amy A. Bartol",95,"Hidden Worlds","4.09",126,0,0,23.791,27.77,8
+801,"J.D. Horn",96,"The Source","3.91",7682,0,0,1.75500000000001,32.6395,1
+802,"J.D. Horn",96,"The Void","3.79",5062,0,0,15.9625,-18.6125,8
+803,"J.D. Horn",96,"Jilo","4.08",904,0,0,-7.2065,8.21150000000001,5
+804,"J.D. Horn",96,"Shivaree","3.65",212,0,0,-7.5395,9.0195,4
+805,"J.D. Horn",96,"Pretty Enough to Catch Her","3.53",34,0,0,-23.806,-0.887500000000003,3
+806,"J.D. Horn",96,"Phantasma: Stories","4.09",23,0,0,12.6325,2.8365,6
+807,"J.D. Horn",96,"The Mammoth Book of Southern Gothic Romance","3.46",24,0,0,-19.909,22.002,2
+808,"J.D. Horn",96,"Pitch","3.8",20,0,0,5.027,-7.965,7
+809,"Lucy A. Snyder",97,"Spellbent","3.6",1398,0,0,2.568,0.590999999999994,5
+810,"Lucy A. Snyder",97,"Hellbound Hearts","4.07",906,0,0,1.44,21.57,8
+811,"Lucy A. Snyder",97,"Shotgun Sorceress","3.72",560,0,0,-19.4705,-20.768,2
+812,"Lucy A. Snyder",97,"Switchblade Goddess","3.72",345,0,0,-22.6115,16.127,1
+813,"Lucy A. Snyder",97,"Once Upon a Curse: Stories and Fairy Tales for Adult Readers","3.8",300,0,0,22.149,38.477,10
+814,"Lucy A. Snyder",97,"The Best Horror of the Year Volume Five","3.74",264,0,0,-5.309,-43.976,3
+815,"Lucy A. Snyder",97,"A Glimpse of Darkness","3.62",227,0,0,22.0715,11.1025,6
+816,"Lucy A. Snyder",97,"Seize the Night: New Tales of Vampiric Terror","3.71",221,0,0,-0.0514999999999972,36.449,9
+817,"Lucy A. Snyder",97,"Horror 101: The Way Forward","4.27",153,0,0,4.207,-24.957,4
+818,"Lucy A. Snyder",97,"Dark Faith","3.97",159,0,0,8.842,17.171,7
+819,"Kristine Kathryn Rusch",98,"The New Rebellion","3.42",5245,0,0,-0.790999999999997,35.0575,8
+820,"Kristine Kathryn Rusch",98,"The Disappeared","3.75",1608,0,0,35.846,19.763,1
+821,"Kristine Kathryn Rusch",98,"X-Men","4.04",1261,0,0,-6.321,-7.4955,4
+822,"Kristine Kathryn Rusch",98,"Diving into the Wreck","3.5",1104,0,0,11.121,-19.008,3
+823,"Kristine Kathryn Rusch",98,"Buried Deep","4.07",626,0,0,42.1225,-3.759,2
+824,"Kristine Kathryn Rusch",98,"The Sacrifice","3.7",654,0,0,3.20750000000001,20.692,6
+825,"Kristine Kathryn Rusch",98,"Paloma","4.11",563,0,0,-7.6635,9.99149999999999,5
+826,"Kristine Kathryn Rusch",98,"Recovery Man","4.06",503,0,0,-1.2885,32.627,7
+827,"Anton Strout",99,"Dead To Me","3.26",2444,0,0,41.8205,-2.0825,6
+828,"Anton Strout",99,"Deader Still","3.75",1122,0,0,45.4345,-4.101,9
+829,"Anton Strout",99,"Dead Matter","3.82",771,0,0,44.4605,1.794,8
+830,"Anton Strout",99,"Alchemystic","3.16",745,0,0,2.0455,-1.6885,5
+831,"Anton Strout",99,"Dead Waters","3.84",577,0,0,42.998,0.127500000000005,7
+832,"Anton Strout",99,"Blackguards: Tales of Assassins, Mercenaries, and Rogues","3.9",333,0,0,-42.417,-3.4025,3
+833,"Anton Strout",99,"Westward Weird","3.69",270,0,0,-29.139,-0.63,2
+834,"Anton Strout",99,"A Girl's Guide to Guns and Monsters","3.34",229,0,0,-36.469,-15.7545,4
+835,"Anton Strout",99,"The Modern Fae's Guide to Surviving Humanity","3.52",162,0,0,-1.491,45.669,1
+836,"Joe Abercrombie",100,"The Blade Itself","4.12",94277,0,0,-18.598,-21.72,4
+837,"Joe Abercrombie",100,"Before They Are Hanged","4.26",70322,0,0,42.4565,1.36950000000001,9
+838,"Joe Abercrombie",100,"Last Argument of Kings","4.26",65072,0,0,-19.4705,-4.3945,2
+839,"Joe Abercrombie",100,"Best Served Cold","4.15",34960,0,0,25.605,-31.722,8
+840,"Joe Abercrombie",100,"The Heroes","4.25",26057,0,0,20.237,45.871,10
+841,"Joe Abercrombie",100,"Half a King","3.99",26713,0,0,-15.0935,-17.3635,3
+842,"Joe Abercrombie",100,"Red Country","4.26",20846,0,0,-31.2635,13.169,1
+843,"Joe Abercrombie",100,"Half the World","4.21",15234,0,0,-7.855,-36.544,7
+844,"Joe Abercrombie",100,"Half a War","4.01",10685,0,0,-24.887,-21.721,5
+845,"Joe Abercrombie",100,"The First Law Trilogy","4.47",5051,0,0,-12.7375,-38.918,6

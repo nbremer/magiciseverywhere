@@ -1,0 +1,323 @@
+html {
+    margin: 0 auto;
+    /*max-width: 900px;*/
+}
+
+body {
+	/*font-family: 'Tangerine', cursive;*/
+	font-family: 'Ek Mukta', sans-serif;
+	text-align: center;
+/*	font-family: 'La Belle Aurore', cursive;*/
+}
+
+a, a:link, a:visited, a:active {
+  color: #1581d7;
+  border-bottom: 1px dotted rgba(23, 165, 84, .5);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #1581d7;
+}
+
+a.image-link {
+	border-bottom: none;
+}
+
+.svgViz {
+	position: absolute;
+}
+
+#totalChartWrapper {
+	position: relative;
+	margin: 0 auto;
+}
+
+/* --- Title --- */
+
+#headerTitle {
+	text-align: center;
+	font-family: 'Tangerine', cursive;
+	text-anchor: middle;
+	fill: #4c4c4c;
+}
+
+.title-magic {
+	font-size: 140px;
+	font-weight: 700;
+}
+
+.title-rest {
+	font-size: 50px;	
+}
+
+/* --- Intro text --- */
+
+.explanation-text {
+	max-width: 1000px;
+	margin: 0 auto;
+	font-family: 'Ek Mukta', sans-serif;
+	/*font-size: calc(11px + (15 - 11) * (100vw - 400px)/(1000 - 400));*/
+	font-weight: 300;
+	line-height: 170%;
+	text-align: left;
+	color: #353535;	
+	display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+  .explanation-text {
+    font-size: 15px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .explanation-text {
+    font-size: 11px !important;
+  }
+}
+
+#subtitle {
+	padding: 40px 50px;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+#explanation {
+	padding: 40px 50px;
+}
+
+.explanation-text p {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.half-width {
+	width: 48%;
+}
+.paddingR10 {
+	padding-right: 2%;
+	float: left;
+}
+.paddingL10 {
+	padding-left: 2%;
+	float: right;
+}
+
+.fw400 {
+	font-weight: 400;
+}
+.fw600 {
+	font-weight: 600;
+}
+.fw700 {
+	font-weight: 700;
+}
+
+.eagle {
+	font-family: 'Eagle Lake', cursive;
+	font-size: 0.9em;
+}
+.tang {
+	font-family: 'Tangerine', cursive;
+	font-size: 1.8em;
+}
+
+.fs090 {
+	font-size: 0.9em;
+	/*line-height: 1.6em;*/
+}
+.fs125 {
+	font-size: 1.25em;
+}
+.fs150 {
+	font-size: 1.5em;
+}
+
+.blue {
+	color: #1581d7;
+}
+.grey {
+	color: #959595;
+}
+
+.mobile {
+	display: none;
+}
+
+/* --- Book chart --- */
+
+.term {
+	font-family: 'Eagle Lake', cursive;
+	cursor: default;
+	text-anchor: middle;
+	pointer-events: none;
+}
+
+.book-title {
+	cursor: default;
+	fill: #343434;
+	text-anchor: middle;
+	/*opacity: 0.9;*/
+	font-family: 'Tangerine', cursive;
+	pointer-events: none;
+}
+
+.author-path, .letter-path, .letter-path-legend {
+	fill: none;
+	pointer-events: none;
+}
+
+/* --- Tooltip --- */
+
+.tooltip-wrapper {
+	font-family: 'Eagle Lake', cursive;
+	font-size: 11px;
+	pointer-events: none;
+	text-anchor: middle;
+	text-shadow: 0 1px 4px white, 1px 0 4px white, -1px 0 4px white, 0 -1px 4px white;
+}
+
+.tooltip-name {
+	font-size: 19px;
+}
+
+.tooltip-rank {
+	font-size: 11px;
+}
+
+/* --- Legend --- */
+
+#bookTitle {
+	text-align: center;
+	cursor: default;
+	color: #343434;
+	opacity: 0.9;
+	font-family: 'Tangerine', cursive;
+	padding-top: 10px;
+}
+
+#span-visible, #span-become-visible {
+	color: #343434;
+}
+#span-invisible {
+	color: white;
+}
+
+.span-hidden {
+	color: rgba(0,0,0,0);
+}
+
+.letter-legend {
+	/*font-family: 'Eagle Lake', cursive;*/
+	font-family: 'Ek Mukta', sans-serif;
+	/*font-family: 'Tangerine', cursive;*/
+	font-weight: 400;
+	fill: white;
+	text-anchor: middle;
+}
+
+.text-circle-legend {
+	text-anchor: middle;
+	fill: #343434;
+	cursor: default;
+}
+.subtext-circle-legend {
+	fill: #959595;
+	text-anchor: middle;
+	cursor: default;
+}
+
+/* --- Author images section --- */
+
+#authorImages {
+	/*padding: 0% 10%;*/
+	width: 100%;
+}
+
+.author-row {
+	/*width: 100%;*/
+	padding-bottom: 20px;
+	display: inline-block;
+}
+
+.author-img {
+	width: 22%;
+	padding-right: 3%;
+}
+.author-text {
+	width: 74%;
+	text-align: left
+}
+
+.author-img, .author-text {
+	float: left;
+}
+
+.author-row p {
+	font-size: 0.8em;
+	line-height: 1.5em;
+	margin-bottom: 0px;
+}
+
+.author-row h3, .legend-top-title {
+	margin-top: 0px;
+    margin-bottom: 0.5em;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.brandon {
+	color: #00c176;
+}
+.patrick {
+	color: #FABE28;
+}
+.rowling {
+	color: #FF003C;
+}
+.terry {
+	/*font-weight: 400;*/
+	color: #34ceed;
+}
+.brent {
+	/*font-weight: 400;*/
+	color: #FF8A00;
+}
+
+/* --- Credits --- */
+
+#credits {
+	/*font-size: 15px;*/
+	min-width: 800px;
+	padding-bottom: 25px;
+	text-align: center !important;
+	line-height: normal !important;
+}
+
+#credits p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.credit-bold {
+	font-weight: 600;
+	font-size: 0.9em;
+	/*color: #1581d7;*/
+}
+
+.credit-divider {
+	color: #b7b7b7;
+	font-weight: 600;
+	font-size: 0.9em;
+	padding: 0px 5px;
+}
+
+.credit-note {
+	margin-top: 0px;
+	font-size: 0.8em;
+	font-weight: 400;
+	/*color: #656565;*/
+}
